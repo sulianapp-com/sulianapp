@@ -8,6 +8,8 @@
 
 ### 功能主打：8大分润体系、消费奖励系统、数十款营销插件、O2O多商户、小程序+app直播带货、短视频、酒店、网约车统统都有。
 
+### 商城使用laravel开发，支持PHP7，前端采用vue打包，请各位技术同学悉知。
+
 功能演示 [快链商城](https://sulianapp.com)
 
 用户名：sladmin
@@ -28,6 +30,6 @@
 [![8dK7b6.md.png](https://s1.ax1x.com/2020/03/17/8dK7b6.md.png)](https://imgchr.com/i/8dK7b6)
 [![8dMSKI.md.png](https://s1.ax1x.com/2020/03/17/8dMSKI.md.png)](https://imgchr.com/i/8dMSKI)
 
-# 联系我们：请注名github
+# 联系我们：请注明来自github
 
 [![8dQSW4.jpg](https://s1.ax1x.com/2020/03/17/8dQSW4.jpg)](https://imgchr.com/i/8dQSW4)
