@@ -10,6 +10,8 @@
 
 ### 商城使用laravel开发，支持PHP7，前端采用vue打包，请各位技术同学悉知。
 
+下载地址：[快链商城](https://gitee.com/fast_chain/sl-shop)
+
 功能演示 [快链商城](https://sulianapp.com)
 
 用户名：sladmin
