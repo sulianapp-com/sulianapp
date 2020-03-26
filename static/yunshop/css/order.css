@@ -1,0 +1,83 @@
+.trhead td {
+    background: #f8f8f8;
+    text-align: center
+}
+
+#modal-confirmsend .control-label {
+    margin-top: 0;
+}
+
+.trbody td {
+    text-align: center;
+    vertical-align: top;
+    border-left: 1px solid #DEDEDE;
+    overflow: hidden;
+}
+
+.goods_info {
+    position: relative;
+    width: 60px;
+}
+
+.goods_info img {
+    width: 50px;
+    background: #fff;
+    border: 1px solid #DEDEDE;
+    padding: 1px;
+}
+
+.goods_info:hover {
+    z-index: 1;
+    position: absolute;
+    width: auto;
+}
+
+.goods_info:hover img {
+    width: 320px;
+    height: 320px;
+}
+
+.form-control .select2-choice {
+    border: 0 none;
+    border-radius: 2px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.form-group.col-sm-8.col-lg-5.col-xs-12 .form-control{width: 50%;float: left}
+.form-group .btn.btn-default.daterange.daterange-time {margin: 0}
+.form-time{width: 30% !important;}
+.btn.btn-default.daterange.daterange-time{width: 70%;float: left}
+.btn.btn-default{    margin-left: 0 !important;margin-right: 10px;}
+
+.panel.panel-default{overflow: hidden}
+.order-info{    overflow: hidden;
+    padding: 10px 10px 0;}
+.order-info .order-title{float:left;border-left:1px solid #ccc;border-right:1px solid #ccc;margin-top:5px;margin-bottom:0px;table-layout: fixed;}
+.order-info .order-main{float:left;border:1px solid #ccc;border-top:none;table-layout: fixed;background-color: #fff;margin-bottom: 0px;}
+.order-info .order-main .trbody .top{border-left:none;text-align: left;/*width:400px*/;}
+.order-info .order-main .trbody .price{border-left:none;text-align:left;}
+.order-info .order-main .trbody .goods-price{width:100%;}
+.order-info .order-main .trbody .goods-price tr td{border:none;text-align:right;}
+.order-info .order-title tbody tr td.left{ background:#f8f8f8;border-top:1px solid #ccc;}
+.order-info .order-title tbody tr td.right{ background:#f8f8f8;text-align: center;border-top:1px solid #ccc;}
+#pager{background: #fff;
+    padding: 0 15px 15px;overflow: hidden}
+.label.label-info{margin-top: 0 !important;}
+.date-title{font-size: 12px;}
+/*订单详情*/
+.main .form-horizontal .form-group{margin-bottom:0;}
+.main .form-horizontal .modal .form-group{margin-bottom:15px;}
+#modal-confirmsend .control-label{margin-top:0;}
+.ad2 {display: none;}
+.ex2  {display: none;}
+.label {white-space: normal;text-align: left;line-height: 16px}
+.col-xs-12.col-sm-3.col-md-2.control-label{    text-align: right;
+    min-height: 34px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;}
+.col-sm-9.col-xs-12 textarea{  height: 150px;  margin-top: 10px;}
+.form-control-static tr td{border:none;text-align:right}
+
+.label.label-default.text-default.label-info.text-pinfo{margin-right: 15px;}

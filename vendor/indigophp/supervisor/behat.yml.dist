@@ -1,0 +1,12 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext:
+          - supervisord
+zend:
+  suites:
+    default:
+      contexts:
+        - ZendContext:
+          - supervisord

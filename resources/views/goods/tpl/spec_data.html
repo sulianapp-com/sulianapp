@@ -1,0 +1,1227 @@
+<div class="panel panel-default spec_item" id="spec_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA">
+         <div class="panel-body">
+	<input name="spec_id[]" type="hidden" class="form-control spec_id" value="E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA">
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格名</label>
+	<div class="col-sm-9 col-xs-12">
+            			<input name="spec_title[E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA]" type="text" class="form-control  spec_title" value="流量" placeholder="(比如: 颜色)">
+                        		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格项</label>
+	<div class="col-sm-9 col-xs-12">
+			<div id="spec_item_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA" class="spec_item_items">
+						<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="ZlnO7Ds224e3uk42hKReCe42liElLyeI">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="5M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_ZlnO7Ds224e3uk42hKReCe42liElLyeI">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_ZlnO7Ds224e3uk42hKReCe42liElLyeI">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('ZlnO7Ds224e3uk42hKReCe42liElLyeI')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="pjAvaVOPd5fxNfEnDI5dfdnyfaDYnoz2">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="10M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_pjAvaVOPd5fxNfEnDI5dfdnyfaDYnoz2">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_pjAvaVOPd5fxNfEnDI5dfdnyfaDYnoz2">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('pjAvaVOPd5fxNfEnDI5dfdnyfaDYnoz2')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="wb88kknvbjkJywH6JWNq6YwJ8EvwQJbh">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="20M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_wb88kknvbjkJywH6JWNq6YwJ8EvwQJbh">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_wb88kknvbjkJywH6JWNq6YwJ8EvwQJbh">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('wb88kknvbjkJywH6JWNq6YwJ8EvwQJbh')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="Itg8BTH1H6pofjZu6PZfBMbBdUg4Yg8Y">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="50M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_Itg8BTH1H6pofjZu6PZfBMbBdUg4Yg8Y">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_Itg8BTH1H6pofjZu6PZfBMbBdUg4Yg8Y">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('Itg8BTH1H6pofjZu6PZfBMbBdUg4Yg8Y')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="GMRsWI5n5NaI5WC1iS2EM5Cm4zwx54NS">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="100M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_GMRsWI5n5NaI5WC1iS2EM5Cm4zwx54NS">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_GMRsWI5n5NaI5WC1iS2EM5Cm4zwx54NS">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('GMRsWI5n5NaI5WC1iS2EM5Cm4zwx54NS')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="S9iMMH88HWm9cG90xINs0Mr0WGZ7oIsg">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="150M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_S9iMMH88HWm9cG90xINs0Mr0WGZ7oIsg">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_S9iMMH88HWm9cG90xINs0Mr0WGZ7oIsg">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('S9iMMH88HWm9cG90xINs0Mr0WGZ7oIsg')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="MNR1418aAcII1Gc1A67Aas84r41naa11">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="200M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_MNR1418aAcII1Gc1A67Aas84r41naa11">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_MNR1418aAcII1Gc1A67Aas84r41naa11">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('MNR1418aAcII1Gc1A67Aas84r41naa11')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="v1M9G6vU359ymgV9vAgZZVYgvrGsvv36">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="500M">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_v1M9G6vU359ymgV9vAgZZVYgvrGsvv36">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_v1M9G6vU359ymgV9vAgZZVYgvrGsvv36">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('v1M9G6vU359ymgV9vAgZZVYgvrGsvv36')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="Oe8u9yDyljD77unjy8c8E9ZeG7d81JY7">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1G">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_Oe8u9yDyljD77unjy8c8E9ZeG7d81JY7">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_Oe8u9yDyljD77unjy8c8E9ZeG7d81JY7">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('Oe8u9yDyljD77unjy8c8E9ZeG7d81JY7')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="z3moeeXH0ZLhH0EHxrHKnlEBn7HP4BLh">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="2G">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_z3moeeXH0ZLhH0EHxrHKnlEBn7HP4BLh">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_z3moeeXH0ZLhH0EHxrHKnlEBn7HP4BLh">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('z3moeeXH0ZLhH0EHxrHKnlEBn7HP4BLh')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="V0dFD4vPH8D7197OHh74pzOef7OZp1WY">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="5G">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control spec_item_virtual" id="temp_id_V0dFD4vPH8D7197OHh74pzOef7OZp1WY">
+                        <input type="text" name="spec_item_virtualname_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_V0dFD4vPH8D7197OHh74pzOef7OZp1WY">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('V0dFD4vPH8D7197OHh74pzOef7OZp1WY')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+</div>
+		</div>
+	</div>             <div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+			<div class="col-sm-9 col-xs-12">
+				<a href="javascript:;" id="add-specitem-E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA" specid="E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA" class="btn btn-info add-specitem" onclick="addSpecItem('E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA')"><i class="fa fa-plus"></i> 添加规格项</a>
+				<a href="javascript:void(0);" class="btn btn-danger" onclick="removeSpec('E4p0C33D6C8L4cDLC44LtPcpYtJTY4DA')"><i class="fa fa-plus"></i> 删除规格</a>
+			</div>
+
+	</div>   </div>
+</div>
+
+
+
+<div class="panel panel-default spec_item" id="spec_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s">
+         <div class="panel-body">
+	<input name="spec_id[]" type="hidden" class="form-control spec_id" value="XR8O8hhqhS9IMMooQmODq90p7fDH7q8s">
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格名</label>
+	<div class="col-sm-9 col-xs-12">
+            			<input name="spec_title[XR8O8hhqhS9IMMooQmODq90p7fDH7q8s]" type="text" class="form-control  spec_title" value="运营商" placeholder="(比如: 颜色)">
+                        		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格项</label>
+	<div class="col-sm-9 col-xs-12">
+			<div id="spec_item_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s" class="spec_item_items">
+						<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="dGsyzZrUmR0008GS7899S0SuPr0RkKp7">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="中国移动">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control spec_item_virtual" id="temp_id_dGsyzZrUmR0008GS7899S0SuPr0RkKp7">
+                        <input type="text" name="spec_item_virtualname_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_dGsyzZrUmR0008GS7899S0SuPr0RkKp7">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('dGsyzZrUmR0008GS7899S0SuPr0RkKp7')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="X44OfsrYzRJsjrevhThHAYrhvROorZA4">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="中国联通">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control spec_item_virtual" id="temp_id_X44OfsrYzRJsjrevhThHAYrhvROorZA4">
+                        <input type="text" name="spec_item_virtualname_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_X44OfsrYzRJsjrevhThHAYrhvROorZA4">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('X44OfsrYzRJsjrevhThHAYrhvROorZA4')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+	<input type="hidden" class="form-control spec_item_show" name="spec_item_show_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="1">
+	<input type="hidden" class="form-control spec_item_id" name="spec_item_id_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="S5t5QChYsciWZTCV4T4t9RhlhCqlvqPk">
+	<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+		<input type="text" class="form-control spec_item_title error" name="spec_item_title_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="中国电信">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+	</div>
+
+                         <div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+                        <input type="hidden" name="spec_item_virtual_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control spec_item_virtual" id="temp_id_S5t5QChYsciWZTCV4T4t9RhlhCqlvqPk">
+                        <input type="text" name="spec_item_virtualname_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_S5t5QChYsciWZTCV4T4t9RhlhCqlvqPk">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="choosetemp('S5t5QChYsciWZTCV4T4t9RhlhCqlvqPk')">选择虚拟物品</button>
+                        </div>
+                    </div>
+
+	<div>
+
+		<script type="text/javascript">
+			function showImageDialog(elm, opts, options) {
+				require(["util"], function(util){
+					var btn = $(elm);
+					var ipt = btn.parent().prev();
+					var val = ipt.val();
+					var img = ipt.parent().next().children();
+					options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+					util.image(val, function(url){
+						if(url.url){
+							if(img.length > 0){
+								img.get(0).src = url.url;
+							}
+							ipt.val(url.attachment);
+							ipt.attr("filename",url.filename);
+							ipt.attr("url",url.url);
+						}
+						if(url.media_id){
+							if(img.length > 0){
+								img.get(0).src = "";
+							}
+							ipt.val(url.media_id);
+						}
+					}, null, options);
+				});
+			}
+			function deleteImage(elm){
+				require(["jquery"], function($){
+					$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+					$(elm).parent().prev().find("input").val("");
+				});
+			}
+		</script>
+		<div class="input-group ">
+			<input type="text" name="spec_item_thumb_XR8O8hhqhS9IMMooQmODq90p7fDH7q8s[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+		</div>
+		<div class="input-group " style="margin-top:.5em;">
+			<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+			<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+		</div>	</div>
+</div>
+
+
+</div>
+		</div>
+	</div>             <div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+			<div class="col-sm-9 col-xs-12">
+				<a href="javascript:;" id="add-specitem-XR8O8hhqhS9IMMooQmODq90p7fDH7q8s" specid="XR8O8hhqhS9IMMooQmODq90p7fDH7q8s" class="btn btn-info add-specitem" onclick="addSpecItem('XR8O8hhqhS9IMMooQmODq90p7fDH7q8s')"><i class="fa fa-plus"></i> 添加规格项</a>
+				<a href="javascript:void(0);" class="btn btn-danger" onclick="removeSpec('XR8O8hhqhS9IMMooQmODq90p7fDH7q8s')"><i class="fa fa-plus"></i> 删除规格</a>
+			</div>
+
+	</div>   </div>
+</div>
+<!-- <div class="panel panel-default spec_item" id="spec_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g">
+<div class="panel-body">
+	<input name="spec_id[]" type="hidden" class="form-control spec_id" value="KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g">
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格名</label>
+		<div class="col-sm-9 col-xs-12">
+			<input name="spec_title[KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g]" type="text" class="form-control  spec_title" value="流量类型" placeholder="(比如: 颜色)">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-xs-12 col-sm-3 col-md-2 control-label">规格项</label>
+		<div class="col-sm-9 col-xs-12">
+			<div id="spec_item_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g" class="spec_item_items">
+				<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+					<input type="hidden" class="form-control spec_item_show" name="spec_item_show_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="1">
+					<input type="hidden" class="form-control spec_item_id" name="spec_item_id_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="YIGV8MGBieiFcOZB5Gcp5o8OO15P8TT1">
+					<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+						<input type="text" class="form-control spec_item_title error" name="spec_item_title_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="省内流量">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+					</div>
+
+					<div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+						<input type="hidden" name="spec_item_virtual_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="" class="form-control spec_item_virtual" id="temp_id_YIGV8MGBieiFcOZB5Gcp5o8OO15P8TT1">
+						<input type="text" name="spec_item_virtualname_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_YIGV8MGBieiFcOZB5Gcp5o8OO15P8TT1">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="button" onclick="choosetemp('YIGV8MGBieiFcOZB5Gcp5o8OO15P8TT1')">选择虚拟物品</button>
+						</div>
+					</div>
+
+					<div>
+
+						<script type="text/javascript">
+							function showImageDialog(elm, opts, options) {
+								require(["util"], function(util){
+									var btn = $(elm);
+									var ipt = btn.parent().prev();
+									var val = ipt.val();
+									var img = ipt.parent().next().children();
+									options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+									util.image(val, function(url){
+										if(url.url){
+											if(img.length > 0){
+												img.get(0).src = url.url;
+											}
+											ipt.val(url.attachment);
+											ipt.attr("filename",url.filename);
+											ipt.attr("url",url.url);
+										}
+										if(url.media_id){
+											if(img.length > 0){
+												img.get(0).src = "";
+											}
+											ipt.val(url.media_id);
+										}
+									}, null, options);
+								});
+							}
+							function deleteImage(elm){
+								require(["jquery"], function($){
+									$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+									$(elm).parent().prev().find("input").val("");
+								});
+							}
+						</script>
+						<div class="input-group ">
+							<input type="text" name="spec_item_thumb_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+						</div>
+						<div class="input-group " style="margin-top:.5em;">
+							<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+							<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+						</div>	</div>
+				</div>
+
+
+				<div class="spec_item_item" style="float:left;margin:0 5px 10px 0;width:250px;">
+					<input type="hidden" class="form-control spec_item_show" name="spec_item_show_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="1">
+					<input type="hidden" class="form-control spec_item_id" name="spec_item_id_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="WMKUMuLQ3NAWMQqh2u5NfjJWn27n2nkh">
+					<div class="input-group" style="margin:10px 0;">
+		<span class="input-group-addon">
+			<label class="checkbox-inline" style="margin-top:-20px;">
+				<input type="checkbox" checked="" value="1" onclick="showItem(this)">
+			</label>
+		</span>
+						<input type="text" class="form-control spec_item_title error" name="spec_item_title_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="国内流量">
+		<span class="input-group-addon">
+			<a href="javascript:;" onclick="removeSpecItem(this)" title="删除"><i class="fa fa-times"></i></a>
+	  		<a href="javascript:;" class="fa fa-arrows" title="拖动调整显示顺序"></a>
+		</span>
+					</div>
+
+					<div class="input-group choosetemp" style="margin-bottom: 10px;display:none">
+						<input type="hidden" name="spec_item_virtual_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="" class="form-control spec_item_virtual" id="temp_id_WMKUMuLQ3NAWMQqh2u5NfjJWn27n2nkh">
+						<input type="text" name="spec_item_virtualname_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="未选择" class="form-control spec_item_virtualname" readonly="" id="temp_name_WMKUMuLQ3NAWMQqh2u5NfjJWn27n2nkh">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="button" onclick="choosetemp('WMKUMuLQ3NAWMQqh2u5NfjJWn27n2nkh')">选择虚拟物品</button>
+						</div>
+					</div>
+
+					<div>
+
+						<script type="text/javascript">
+							function showImageDialog(elm, opts, options) {
+								require(["util"], function(util){
+									var btn = $(elm);
+									var ipt = btn.parent().prev();
+									var val = ipt.val();
+									var img = ipt.parent().next().children();
+									options = {'global':false,'class_extra':'','direct':true,'multiple':false};
+									util.image(val, function(url){
+										if(url.url){
+											if(img.length > 0){
+												img.get(0).src = url.url;
+											}
+											ipt.val(url.attachment);
+											ipt.attr("filename",url.filename);
+											ipt.attr("url",url.url);
+										}
+										if(url.media_id){
+											if(img.length > 0){
+												img.get(0).src = "";
+											}
+											ipt.val(url.media_id);
+										}
+									}, null, options);
+								});
+							}
+							function deleteImage(elm){
+								require(["jquery"], function($){
+									$(elm).prev().attr("src", "./resource/images/nopic.jpg");
+									$(elm).parent().prev().find("input").val("");
+								});
+							}
+						</script>
+						<div class="input-group ">
+							<input type="text" name="spec_item_thumb_KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g[]" value="" class="form-control" autocomplete="off">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" onclick="showImageDialog(this);">选择图片</button>
+			</span>
+						</div>
+						<div class="input-group " style="margin-top:.5em;">
+							<img src="./resource/images/nopic.jpg" onerror="this.src='./resource/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+							<em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="deleteImage(this)">×</em>
+						</div>	</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>             <div class="form-group">
+	<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+	<div class="col-sm-9 col-xs-12">
+		<a href="javascript:;" id="add-specitem-KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g" specid="KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g" class="btn btn-info add-specitem" onclick="addSpecItem('KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g')"><i class="fa fa-plus"></i> 添加规格项</a>
+		<a href="javascript:void(0);" class="btn btn-danger" onclick="removeSpec('KUBRIxuXAUt7Q4B1oOlUTUEBiBAER14g')"><i class="fa fa-plus"></i> 删除规格</a>
+	</div>
+
+</div>   </div>
+</div> -->

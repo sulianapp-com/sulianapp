@@ -1,0 +1,2201 @@
+[
+  {
+    "city_id": "1",
+    "name": "北京辖区",
+    "pid": "1",
+    "sortnum": null
+  },
+  {
+    "city_id": "2",
+    "name": "北京辖县",
+    "pid": "1",
+    "sortnum": null
+  },
+  {
+    "city_id": "3",
+    "name": "天津辖区",
+    "pid": "2",
+    "sortnum": null
+  },
+  {
+    "city_id": "4",
+    "name": "天津辖县",
+    "pid": "2",
+    "sortnum": null
+  },
+  {
+    "city_id": "5",
+    "name": "石家庄市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "6",
+    "name": "唐山市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "7",
+    "name": "秦皇岛市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "8",
+    "name": "邯郸市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "9",
+    "name": "邢台市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "10",
+    "name": "保定市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "11",
+    "name": "张家口市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "12",
+    "name": "承德市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "13",
+    "name": "沧州市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "14",
+    "name": "廊坊市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "15",
+    "name": "衡水市",
+    "pid": "3",
+    "sortnum": null
+  },
+  {
+    "city_id": "16",
+    "name": "太原市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "17",
+    "name": "大同市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "18",
+    "name": "阳泉市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "19",
+    "name": "长治市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "20",
+    "name": "晋城市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "21",
+    "name": "朔州市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "22",
+    "name": "晋中市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "23",
+    "name": "运城市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "24",
+    "name": "忻州市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "25",
+    "name": "临汾市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "26",
+    "name": "吕梁市",
+    "pid": "4",
+    "sortnum": null
+  },
+  {
+    "city_id": "27",
+    "name": "呼和浩特市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "28",
+    "name": "包头市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "29",
+    "name": "乌海市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "30",
+    "name": "赤峰市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "31",
+    "name": "通辽市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "32",
+    "name": "鄂尔多斯市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "33",
+    "name": "呼伦贝尔市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "34",
+    "name": "巴彦淖尔市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "35",
+    "name": "乌兰察布市",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "36",
+    "name": "兴安盟",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "37",
+    "name": "锡林郭勒盟",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "38",
+    "name": "阿拉善盟",
+    "pid": "5",
+    "sortnum": null
+  },
+  {
+    "city_id": "39",
+    "name": "沈阳市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "40",
+    "name": "大连市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "41",
+    "name": "鞍山市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "42",
+    "name": "抚顺市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "43",
+    "name": "本溪市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "44",
+    "name": "丹东市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "45",
+    "name": "锦州市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "46",
+    "name": "营口市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "47",
+    "name": "阜新市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "48",
+    "name": "辽阳市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "49",
+    "name": "盘锦市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "50",
+    "name": "铁岭市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "51",
+    "name": "朝阳市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "52",
+    "name": "葫芦岛市",
+    "pid": "6",
+    "sortnum": null
+  },
+  {
+    "city_id": "53",
+    "name": "长春市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "54",
+    "name": "吉林市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "55",
+    "name": "四平市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "56",
+    "name": "辽源市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "57",
+    "name": "通化市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "58",
+    "name": "白山市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "59",
+    "name": "松原市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "60",
+    "name": "白城市",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "61",
+    "name": "延边自治州",
+    "pid": "7",
+    "sortnum": null
+  },
+  {
+    "city_id": "62",
+    "name": "哈尔滨市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "63",
+    "name": "齐齐哈尔市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "64",
+    "name": "鸡西市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "65",
+    "name": "鹤岗市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "66",
+    "name": "双鸭山市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "67",
+    "name": "大庆市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "68",
+    "name": "伊春市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "69",
+    "name": "佳木斯市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "70",
+    "name": "七台河市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "71",
+    "name": "牡丹江市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "72",
+    "name": "黑河市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "73",
+    "name": "绥化市",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "74",
+    "name": "大兴安岭地区",
+    "pid": "8",
+    "sortnum": null
+  },
+  {
+    "city_id": "75",
+    "name": "上海辖区",
+    "pid": "9",
+    "sortnum": null
+  },
+  {
+    "city_id": "76",
+    "name": "上海辖县",
+    "pid": "9",
+    "sortnum": null
+  },
+  {
+    "city_id": "77",
+    "name": "南京市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "78",
+    "name": "无锡市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "79",
+    "name": "徐州市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "80",
+    "name": "常州市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "81",
+    "name": "苏州市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "82",
+    "name": "南通市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "83",
+    "name": "连云港市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "84",
+    "name": "淮安市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "85",
+    "name": "盐城市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "86",
+    "name": "扬州市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "87",
+    "name": "镇江市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "88",
+    "name": "泰州市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "89",
+    "name": "宿迁市",
+    "pid": "10",
+    "sortnum": null
+  },
+  {
+    "city_id": "90",
+    "name": "杭州市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "91",
+    "name": "宁波市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "92",
+    "name": "温州市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "93",
+    "name": "嘉兴市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "94",
+    "name": "湖州市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "95",
+    "name": "绍兴市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "96",
+    "name": "金华市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "97",
+    "name": "衢州市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "98",
+    "name": "舟山市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "99",
+    "name": "台州市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "100",
+    "name": "丽水市",
+    "pid": "11",
+    "sortnum": null
+  },
+  {
+    "city_id": "101",
+    "name": "合肥市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "102",
+    "name": "芜湖市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "103",
+    "name": "蚌埠市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "104",
+    "name": "淮南市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "105",
+    "name": "马鞍山市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "106",
+    "name": "淮北市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "107",
+    "name": "铜陵市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "108",
+    "name": "安庆市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "109",
+    "name": "黄山市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "110",
+    "name": "滁州市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "111",
+    "name": "阜阳市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "112",
+    "name": "宿州市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "113",
+    "name": "巢湖市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "114",
+    "name": "六安市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "115",
+    "name": "亳州市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "116",
+    "name": "池州市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "117",
+    "name": "宣城市",
+    "pid": "12",
+    "sortnum": null
+  },
+  {
+    "city_id": "118",
+    "name": "福州市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "119",
+    "name": "厦门市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "120",
+    "name": "莆田市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "121",
+    "name": "三明市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "122",
+    "name": "泉州市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "123",
+    "name": "漳州市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "124",
+    "name": "南平市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "125",
+    "name": "龙岩市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "126",
+    "name": "宁德市",
+    "pid": "13",
+    "sortnum": null
+  },
+  {
+    "city_id": "127",
+    "name": "南昌市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "128",
+    "name": "景德镇市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "129",
+    "name": "萍乡市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "130",
+    "name": "九江市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "131",
+    "name": "新余市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "132",
+    "name": "鹰潭市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "133",
+    "name": "赣州市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "134",
+    "name": "吉安市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "135",
+    "name": "宜春市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "136",
+    "name": "抚州市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "137",
+    "name": "上饶市",
+    "pid": "14",
+    "sortnum": null
+  },
+  {
+    "city_id": "138",
+    "name": "济南市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "139",
+    "name": "青岛市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "140",
+    "name": "淄博市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "141",
+    "name": "枣庄市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "142",
+    "name": "东营市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "143",
+    "name": "烟台市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "144",
+    "name": "潍坊市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "145",
+    "name": "济宁市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "146",
+    "name": "泰安市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "147",
+    "name": "威海市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "148",
+    "name": "日照市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "149",
+    "name": "莱芜市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "150",
+    "name": "临沂市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "151",
+    "name": "德州市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "152",
+    "name": "聊城市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "153",
+    "name": "滨州市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "154",
+    "name": "菏泽市",
+    "pid": "15",
+    "sortnum": null
+  },
+  {
+    "city_id": "155",
+    "name": "郑州市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "156",
+    "name": "开封市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "157",
+    "name": "洛阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "158",
+    "name": "平顶山市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "159",
+    "name": "安阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "160",
+    "name": "鹤壁市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "161",
+    "name": "新乡市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "162",
+    "name": "焦作市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "163",
+    "name": "济源市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "164",
+    "name": "沁阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "165",
+    "name": "孟州市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "166",
+    "name": "濮阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "167",
+    "name": "许昌市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "168",
+    "name": "漯河市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "169",
+    "name": "三门峡市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "170",
+    "name": "南阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "171",
+    "name": "商丘市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "172",
+    "name": "信阳市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "173",
+    "name": "周口市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "174",
+    "name": "驻马店市",
+    "pid": "16",
+    "sortnum": null
+  },
+  {
+    "city_id": "175",
+    "name": "武汉市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "176",
+    "name": "黄石市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "177",
+    "name": "十堰市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "178",
+    "name": "宜昌市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "179",
+    "name": "襄阳市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "180",
+    "name": "鄂州市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "181",
+    "name": "荆门市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "182",
+    "name": "孝感市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "183",
+    "name": "荆州市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "184",
+    "name": "黄冈市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "185",
+    "name": "咸宁市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "186",
+    "name": "随州市",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "187",
+    "name": "恩施自治州",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "188",
+    "name": "湖北省辖单位",
+    "pid": "17",
+    "sortnum": null
+  },
+  {
+    "city_id": "189",
+    "name": "长沙市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "190",
+    "name": "株洲市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "191",
+    "name": "湘潭市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "192",
+    "name": "衡阳市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "193",
+    "name": "邵阳市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "194",
+    "name": "岳阳市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "195",
+    "name": "常德市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "196",
+    "name": "张家界市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "197",
+    "name": "益阳市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "198",
+    "name": "郴州市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "199",
+    "name": "永州市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "200",
+    "name": "怀化市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "201",
+    "name": "娄底市",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "202",
+    "name": "湘西自治州",
+    "pid": "18",
+    "sortnum": null
+  },
+  {
+    "city_id": "203",
+    "name": "广州市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "204",
+    "name": "韶关市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "205",
+    "name": "深圳市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "206",
+    "name": "珠海市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "207",
+    "name": "汕头市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "208",
+    "name": "佛山市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "209",
+    "name": "江门市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "210",
+    "name": "湛江市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "211",
+    "name": "茂名市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "212",
+    "name": "肇庆市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "213",
+    "name": "惠州市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "214",
+    "name": "梅州市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "215",
+    "name": "汕尾市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "216",
+    "name": "河源市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "217",
+    "name": "阳江市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "218",
+    "name": "清远市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "219",
+    "name": "东莞市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "220",
+    "name": "中山市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "221",
+    "name": "潮州市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "222",
+    "name": "揭阳市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "223",
+    "name": "云浮市",
+    "pid": "19",
+    "sortnum": null
+  },
+  {
+    "city_id": "224",
+    "name": "南宁市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "225",
+    "name": "柳州市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "226",
+    "name": "桂林市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "227",
+    "name": "梧州市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "228",
+    "name": "北海市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "229",
+    "name": "防城港市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "230",
+    "name": "钦州市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "231",
+    "name": "贵港市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "232",
+    "name": "玉林市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "233",
+    "name": "百色市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "234",
+    "name": "贺州市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "235",
+    "name": "河池市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "236",
+    "name": "来宾市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "237",
+    "name": "崇左市",
+    "pid": "20",
+    "sortnum": null
+  },
+  {
+    "city_id": "238",
+    "name": "海口市",
+    "pid": "21",
+    "sortnum": null
+  },
+  {
+    "city_id": "239",
+    "name": "三亚市",
+    "pid": "21",
+    "sortnum": null
+  },
+  {
+    "city_id": "240",
+    "name": "海南直辖县",
+    "pid": "21",
+    "sortnum": null
+  },
+  {
+    "city_id": "241",
+    "name": "重庆辖区",
+    "pid": "22",
+    "sortnum": null
+  },
+  {
+    "city_id": "242",
+    "name": "重庆辖县",
+    "pid": "22",
+    "sortnum": null
+  },
+  {
+    "city_id": "243",
+    "name": "重庆辖市",
+    "pid": "22",
+    "sortnum": null
+  },
+  {
+    "city_id": "244",
+    "name": "成都市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "245",
+    "name": "自贡市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "246",
+    "name": "攀枝花市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "247",
+    "name": "泸州市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "248",
+    "name": "德阳市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "249",
+    "name": "绵阳市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "250",
+    "name": "广元市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "251",
+    "name": "遂宁市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "252",
+    "name": "内江市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "253",
+    "name": "乐山市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "254",
+    "name": "南充市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "255",
+    "name": "眉山市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "256",
+    "name": "宜宾市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "257",
+    "name": "广安市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "258",
+    "name": "达州市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "259",
+    "name": "雅安市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "260",
+    "name": "巴中市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "261",
+    "name": "资阳市",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "262",
+    "name": "阿坝自治州",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "263",
+    "name": "甘孜自治州",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "264",
+    "name": "凉山自治州",
+    "pid": "23",
+    "sortnum": null
+  },
+  {
+    "city_id": "265",
+    "name": "贵阳市",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "266",
+    "name": "六盘水市",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "267",
+    "name": "遵义市",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "268",
+    "name": "安顺市",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "269",
+    "name": "铜仁地区",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "270",
+    "name": "黔西南自治州",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "271",
+    "name": "毕节地区",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "272",
+    "name": "黔东南自治州",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "273",
+    "name": "黔南自治州",
+    "pid": "24",
+    "sortnum": null
+  },
+  {
+    "city_id": "274",
+    "name": "昆明市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "275",
+    "name": "曲靖市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "276",
+    "name": "玉溪市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "277",
+    "name": "保山市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "278",
+    "name": "昭通市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "279",
+    "name": "丽江市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "280",
+    "name": "思茅市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "281",
+    "name": "临沧市",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "282",
+    "name": "楚雄自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "283",
+    "name": "红河自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "284",
+    "name": "文山自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "285",
+    "name": "西双版纳州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "286",
+    "name": "大理自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "287",
+    "name": "德宏自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "288",
+    "name": "怒江傈自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "289",
+    "name": "迪庆自治州",
+    "pid": "25",
+    "sortnum": null
+  },
+  {
+    "city_id": "290",
+    "name": "拉萨市",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "291",
+    "name": "昌都地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "292",
+    "name": "山南地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "293",
+    "name": "日喀则地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "294",
+    "name": "那曲地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "295",
+    "name": "阿里地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "296",
+    "name": "林芝地区",
+    "pid": "26",
+    "sortnum": null
+  },
+  {
+    "city_id": "297",
+    "name": "西安市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "298",
+    "name": "铜川市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "299",
+    "name": "宝鸡市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "300",
+    "name": "咸阳市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "301",
+    "name": "渭南市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "302",
+    "name": "延安市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "303",
+    "name": "汉中市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "304",
+    "name": "榆林市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "305",
+    "name": "安康市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "306",
+    "name": "商洛市",
+    "pid": "27",
+    "sortnum": null
+  },
+  {
+    "city_id": "307",
+    "name": "兰州市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "308",
+    "name": "嘉峪关市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "309",
+    "name": "金昌市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "310",
+    "name": "白银市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "311",
+    "name": "天水市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "312",
+    "name": "武威市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "313",
+    "name": "张掖市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "314",
+    "name": "平凉市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "315",
+    "name": "酒泉市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "316",
+    "name": "庆阳市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "317",
+    "name": "定西市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "318",
+    "name": "陇南市",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "319",
+    "name": "临夏自治州",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "320",
+    "name": "甘南自治州",
+    "pid": "28",
+    "sortnum": null
+  },
+  {
+    "city_id": "321",
+    "name": "西宁市",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "322",
+    "name": "海东地区",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "323",
+    "name": "海北自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "324",
+    "name": "黄南自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "325",
+    "name": "海南自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "326",
+    "name": "果洛自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "327",
+    "name": "玉树自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "328",
+    "name": "海西自治州",
+    "pid": "29",
+    "sortnum": null
+  },
+  {
+    "city_id": "329",
+    "name": "银川市",
+    "pid": "30",
+    "sortnum": null
+  },
+  {
+    "city_id": "330",
+    "name": "石嘴山市",
+    "pid": "30",
+    "sortnum": null
+  },
+  {
+    "city_id": "331",
+    "name": "吴忠市",
+    "pid": "30",
+    "sortnum": null
+  },
+  {
+    "city_id": "332",
+    "name": "固原市",
+    "pid": "30",
+    "sortnum": null
+  },
+  {
+    "city_id": "333",
+    "name": "中卫市",
+    "pid": "30",
+    "sortnum": null
+  },
+  {
+    "city_id": "334",
+    "name": "乌鲁木齐市",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "335",
+    "name": "克拉玛依市",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "336",
+    "name": "吐鲁番地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "337",
+    "name": "哈密地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "338",
+    "name": "昌吉自治州",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "339",
+    "name": "博尔塔拉州",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "340",
+    "name": "巴音郭楞州",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "341",
+    "name": "阿克苏地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "342",
+    "name": "克孜勒苏州",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "343",
+    "name": "喀什地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "344",
+    "name": "和田地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "345",
+    "name": "伊犁自治州",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "346",
+    "name": "塔城地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "347",
+    "name": "阿勒泰地区",
+    "pid": "31",
+    "sortnum": null
+  },
+  {
+    "city_id": "348",
+    "name": "新疆省辖单位",
+    "pid": "31",
+    "sortnum": null
+  },
+
+
+
+
+
+
+  {
+    "city_id": "349",
+    "name": "台北市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "350",
+    "name": "高雄市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "351",
+    "name": "基隆市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "352",
+    "name": "台中市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "353",
+    "name": "台南市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "354",
+    "name": "新竹市",
+    "pid": "32",
+    "sortnum": null
+  },
+  {
+    "city_id": "355",
+    "name": "嘉义市",
+    "pid": "32",
+    "sortnum": null
+  },
+
+
+
+  {
+    "city_id": "356",
+    "name": "香港岛",
+    "pid": "33",
+    "sortnum": null
+  },
+  {
+    "city_id": "357",
+    "name": "九龙",
+    "pid": "33",
+    "sortnum": null
+  },
+  {
+    "city_id": "358",
+    "name": "新界东",
+    "pid": "33",
+    "sortnum": null
+  },
+  {
+    "city_id": "359",
+    "name": "新界西",
+    "pid": "33",
+    "sortnum": null
+  },
+  {
+    "city_id": "360",
+    "name": "花地玛堂区",
+    "pid": "34",
+    "sortnum": null
+  },
+  {
+    "city_id": "361",
+    "name": "圣安多尼堂区",
+    "pid": "34",
+    "sortnum": null
+  },
+  {
+    "city_id": "362",
+    "name": "花王堂区",
+    "pid": "34",
+    "sortnum": null
+  },
+  {
+    "city_id": "363",
+    "name": "大堂区",
+    "pid": "34",
+    "sortnum": null
+  },
+  {
+    "city_id": "364",
+    "name": "望德堂区",
+    "pid": "34",
+    "sortnum": null
+  },
+  {
+    "city_id": "365",
+    "name": "风顺堂区",
+    "pid": "34",
+    "sortnum": null
+  }
+]

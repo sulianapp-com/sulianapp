@@ -1,0 +1,95 @@
+.btn { margin-right: 4px; }
+td#description { width: 35%; }
+@media (max-width: 767px) { .content-header > h1 > small { display: none; } }
+.left-menu-border {
+    border-right: 1px solid rgba(238, 238, 238, 0.73);
+}
+.button_content {
+    border : 0px dashed #dbdbf3;
+    background: #f4f4f4;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 4px;
+    padding: 3px 0px 3px 0px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.button_icon {
+    text-align: center;
+    line-height: 40px;
+}
+.button_detail{
+    width: 100%;
+    font-size: x-small;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.button_title {
+    /*width: 80%;*/
+}
+.font-description{
+    font-size: 12px;
+}
+.interval {
+    margin-left: 12px;
+}
+.content-height-scroll{
+    height: 600px;
+    word-break: break-all;
+    overflow-y: scroll;
+}
+.select-css{
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+}
+
+
+.alert {
+    display: none;
+    left: 50%;
+    min-width: 300px;
+    margin-left: auto;
+    z-index: 99999;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.installed-css{
+    color:#00a65a;
+}
+.upgrade-css{
+    color: #00c0ef;
+}

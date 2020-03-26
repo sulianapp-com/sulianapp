@@ -1,0 +1,17 @@
+<tr>
+    <td>
+        <a href="javascript:;" class="fa fa-move" title="拖动调整此显示顺序" ><i class="fa fa-arrows"></i></a>&nbsp;
+        <a href="javascript:;" onclick="deleteParam(this)" style="margin-top:10px;"  title="删除"><i class='fa fa-times'></i></a>
+    </td>
+    <td colspan="2">
+       <input type="hidden" class="form-control" name="cashiersids[]"  data-id="{$id}" data-name="cashiersids" value="" placeholder="按钮名称" style="width:200px;float:left"  />
+           
+              <input class="form-control" type="text" data-id="{$id}" data-name="cashiersnames" placeholder="" value="" name="cashiersnames[]" style="width:200px;float:left">
+              <span class="input-group-btn">
+                  <button class="btn btn-default nav-link-cashier" type="button" data-id="{$id}" >选择商户</button>
+              </span>
+           
+        
+    </td>
+   
+</tr>

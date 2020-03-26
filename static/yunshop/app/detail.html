@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<title>订单详情</title>
+	<style>
+		body,h1,ul,li,h2{margin:0;padding:0;}
+		body{background-color:#f5f5f5;}
+		ul,li{list-style-type: none;}
+		#basic_info{background-color: #fff;}
+		h1{
+			background-color: #f5f5f5;
+				height:2.5rem;
+				line-height: 2.5rem; 
+				padding: 0 0.875rem;
+				font-size:16px;
+				color:#333;
+				display: flex;
+				position: relative;
+			font-size:14px;
+		}
+		.arrow{
+			position: absolute;
+			width: 1rem;
+			right: 0.875rem;
+			top:0.9375rem;
+			display: inline-block;
+		}
+		.buslist{
+			display: flex;
+			line-height: 1.625rem;
+			text-align: left;
+			font-size:12px;
+		}
+		.left{
+			width: 5.625rem;
+			display: inline-block;
+			padding-left:1.25rem;
+		}
+		.right{padding-right: 1.25rem;}
+		#business{padding: 0.625rem 0;}
+		#goods_info{background-color: #fff;}
+		.goods{
+			padding:0.75rem;
+			display: flex;
+		}
+		.goods_img{
+			width: 4rem;
+			height:4rem;
+			background: #fff;
+			overflow: hidden;
+			margin-right:0.75rem;
+		}
+		.gd_img{width: 100%;}
+		.info{
+			width:17.1875rem;
+			font-size:14px;
+			position: relative;
+		}
+		.name{
+			display: flex;
+			justify-content: space-between;
+		}
+		.goods_name{
+			width: 11.25rem;
+			text-align: left;
+			line-height: 1.25rem;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp:2;
+			overflow: hidden;
+			text-overflow:ellipsis;
+		}
+		.standard{
+			font-size:12px;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			position: absolute;
+			bottom:0rem;
+			color:#8c8c8c;
+		}
+		.goods_price{
+			
+		}
+		#price_info{
+			margin-bottom:4rem;
+			background-color: #fff;
+		}
+		#list{padding: 0.625rem 0;}
+		.list_info{
+			font-size:12px;
+			padding:0 0.875rem;
+			display: flex;
+			justify-content: space-between;
+			line-height: 1.625rem;
+			text-align: left;
+		}
+		h2{
+				height: 2.5rem;
+				line-height: 2.5rem;
+				border-top:solid 0.0625rem #ebebeb;
+				text-align: right;
+				font-size: 18px;
+				padding-right: 0.875rem;
+		}
+		.pay_price{
+			font-weight: normal;
+			font-size: 16px;
+		}
+		#footer{
+			font-size:12px;
+			background-color: #fff;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			display: flex;
+			height: 3.0625rem;
+			border-top:solid 0.0625rem #ebebeb;
+		}
+		#footer_a,#footer_b,#footer_c{
+			padding-top:0.3125rem;
+			flex:1;
+		}
+		.icon_img{
+			width: 1.375rem;
+			height: 1.375rem;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		.img{width:100%;}
+		.text{
+			display:block;
+			text-align: center;
+		}
+
+		.hide{
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+    (function (doc, win) {
+       var docEl = doc.documentElement,
+         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+         recalc = function () {
+           var clientWidth = docEl.clientWidth; 
+           if (!clientWidth) return;
+           docEl.style.fontSize = 16 * (clientWidth / 375) + 'px';//其中“16”根据你设置的html的font-size属性值做适当的变化
+         };
+ 
+       if (!doc.addEventListener) return;
+       win.addEventListener(resizeEvt, recalc, false);
+       doc.addEventListener('DOMContentLoaded', recalc, false);
+     })(document, window);
+ </script>
+</head>
+
+<body>
+	<div id="detail">
+		<div id="basic_info">
+			<h1>
+				<span>基本信息</span>
+				<img class="arrow" src="images/up@2x.png">
+			</h1>
+			<ul id="business">
+				<li class="buslist">
+					<span class="left">基地地址</span>
+					<span class="right"></span>
+				</li>
+				<li class="buslist">
+					<span class="left">基地名称</span>
+					<span class="right"></span>
+				</li>
+				<li class="buslist">
+					<span class="left">订单号</span>
+					<span class="right"></span>
+				</li>
+				<li class="buslist">
+					<span class="left">收件人</span>
+					<span class="right"></span>
+				</li>
+				<li class="buslist">
+					<span class="left">联系电话</span>
+					<span class="right"></span>
+				</li>
+				<li class="buslist">
+					<span class="left">收货地址</span>
+					<span class="right"></span>
+				</li>
+			</ul>
+		</div>
+		<div id="goods_info">
+			<h1>
+				<span>商品信息</span>
+				<img  class="arrow" src="images/up@2x.png">
+			</h1>
+				<!--<div class="goods">-->
+					<!--<div class="goods_img">-->
+						<!--<img class="gd_img" src="images/yz-logo.png">-->
+					<!--</div>-->
+					<!--<ul class="info">-->
+						<!--<li class="name">-->
+							<!--<span class="goods_name" style="-webkit-box-orient: vertical;">微型照相机超小 迷你摄像机袖珍高清录音笔无线微型X3+8G内存卡 官方标配</span>-->
+							<!--<span class="goods_price">￥1860.00</span>-->
+						<!--</li>-->
+						<!--<li class="standard">-->
+							<!--<span>规格：</span>-->
+							<!--<span>×1</span>-->
+						<!--</li>-->
+					<!--</ul>-->
+				<!--</div>-->
+
+		</div>
+		<div id="price_info">
+			<h1>
+				<span>金额信息</span>
+				<img  class="arrow"  src="images/up@2x.png">
+			</h1>
+			<ul id="list">
+				<!--<li class="list_info">-->
+					<!--<span>单品满额优惠：</span>-->
+					<!--<span>¥0.00</span>-->
+				<!--</li>-->
+
+				<li class="list_info">
+					<span>商品小计：</span>
+					<span></span>
+				</li>
+			</ul>
+			<h2><span class="pay_price" id="total"></span></h2>
+		</div>
+		<!--<div id="footer">-->
+			<!--<div id="footer_a">-->
+				<!--<div class="icon_img">-->
+					<!--<img class="img" src="images/home@2x.png">-->
+				<!--</div>-->
+				<!--<span class="text">首页</span>-->
+			<!--</div>-->
+			<!--<div id="footer_b">-->
+				<!--<div class="icon_img">-->
+					<!--<img class="img" src="images/curtaskct@2x.png">-->
+				<!--</div>-->
+				<!--<span class="text">任务</span>-->
+			<!--</div>-->
+			<!--<div id="footer_c">-->
+				<!--<div class="icon_img">-->
+					<!--<img class="img" src="images/center@2x.png">-->
+				<!--</div>-->
+				<!--<span class="text">我的</span>-->
+			<!--</div>-->
+		<!--</div>-->
+	</div>
+</body>
+<script>
+	$(function(){
+		var token=getQueryString("token");
+
+		var order_id=getQueryString("order_id");
+
+		var i=getQueryString("i");
+
+		var url = getRequestUrl();
+
+		$.ajax({
+			type:"GET",
+			url: url+"/addons/yun_shop/api.php?i="+i+"&route=plugin.delivery-driver.home.api.order.detail&token="+token+"&order_id="+order_id+"",
+			dataType:"JSON",
+			success:function(res){
+				if(res.result == 1){
+					getData(res.data);
+				}else{
+					console.log("请求失败");
+				}
+			}
+
+		})
+
+	})
+
+    function getRequestUrl() {
+        var protocol = window.location.protocol;
+        var host = window.location.host;
+        return protocol+'//'+host;
+    }
+
+	//获取url后面的参数
+	function getQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) return unescape(r[2]);
+		return null;
+	}
+
+	function getData(data){
+
+		//商品金额
+
+		var moneny=[];
+
+		var monenyStr="";
+
+		//商品
+
+		var goods=[];
+
+		var goodsStr="";
+
+		moneny=data.order.order_discount;
+
+		goods=data.order.has_many_order_goods;
+
+
+		//基本信息
+
+		$("#business li").eq(0).find('.right').html(data.driver_order.has_one_base.full_address);
+
+		$("#business li").eq(1).find('.right').html(data.driver_order.has_one_base.store_name);
+
+		$("#business li").eq(2).find('.right').html(data.driver_order.order_sn);
+
+		$("#business li").eq(3).find('.right').html(data.driver_order.has_one_order_address.realname);
+
+		$("#business li").eq(4).find('.right').html(data.driver_order.has_one_order_address.mobile);
+
+		$("#business li").eq(5).find('.right').html(data.driver_order.has_one_order_address.address);
+
+
+		//金额信息
+
+		if(moneny.length == 0){
+			$('#price_info').addClass('hide');
+		}else{
+			for(var i=0;i<moneny.length;i++){
+				monenyStr+='<li class="list_info"><span>'+moneny[i].name+'：</span><span>¥'+moneny[i].amount+'</span></li>'
+			}
+
+			$('#list').prepend(monenyStr);
+		}
+
+		//商品信息
+
+
+		for(var j=0;j<goods.length;j++){
+			goodsStr+='<div class="goods">'+
+						'<div class="goods_img"><img class="gd_img" src="'+goods[j].thumb+'" style="width:100%;height:100%;"></div>'+
+						'<ul class="info">'+
+							'<li class="name">'+
+								'<span class="goods_name" style="-webkit-box-orient: vertical;">'+goods[j].title+'</span>'+
+								'<span class="goods_price">￥'+ toDecimal2(goods[j].goods_price / goods[j].total)+'</span>'+
+							'</li>'+
+							'<li class="standard">'+
+								'<span>规格：'+goods[j].goods_option_title+'</span>'+
+								'<span>×'+goods[j].total+'</span>'+
+							'</li>'+
+						'</ul>'+
+					'</div>';
+		}
+
+
+		$('#goods_info').append(goodsStr);
+
+		$('#list li:last').find('span').eq(1).html("¥"+data.order.goods_price);
+
+		$('#total').html("实付款（含运费）：¥"+data.order.price);
+
+
+	}
+
+    function toDecimal2(x) {
+        var f = parseFloat(x);
+        if (isNaN(f)) {
+            return false;
+        }
+        var f = Math.round(x*100)/100;
+        var s = f.toString();
+        var rs = s.indexOf('.');
+        if (rs < 0) {
+            rs = s.length;
+            s += '.';
+        }
+        while (s.length <= rs + 2) {
+            s += '0';
+        }
+        return s;
+    }
+</script>
+</html>

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "1",
+    "name": "北京市",
+    "sortnum": null
+  },
+  {
+    "id": "2",
+    "name": "天津市",
+    "sortnum": null
+  },
+  {
+    "id": "3",
+    "name": "河北省",
+    "sortnum": null
+  },
+  {
+    "id": "4",
+    "name": "山西省",
+    "sortnum": null
+  },
+  {
+    "id": "5",
+    "name": "内蒙古区",
+    "sortnum": null
+  },
+  {
+    "id": "6",
+    "name": "辽宁省",
+    "sortnum": null
+  },
+  {
+    "id": "7",
+    "name": "吉林省",
+    "sortnum": null
+  },
+  {
+    "id": "8",
+    "name": "黑龙江省",
+    "sortnum": null
+  },
+  {
+    "id": "9",
+    "name": "上海市",
+    "sortnum": null
+  },
+  {
+    "id": "10",
+    "name": "江苏省",
+    "sortnum": null
+  },
+  {
+    "id": "11",
+    "name": "浙江省",
+    "sortnum": null
+  },
+  {
+    "id": "12",
+    "name": "安徽省",
+    "sortnum": null
+  },
+  {
+    "id": "13",
+    "name": "福建省",
+    "sortnum": null
+  },
+  {
+    "id": "14",
+    "name": "江西省",
+    "sortnum": null
+  },
+  {
+    "id": "15",
+    "name": "山东省",
+    "sortnum": null
+  },
+  {
+    "id": "16",
+    "name": "河南省",
+    "sortnum": null
+  },
+  {
+    "id": "17",
+    "name": "湖北省",
+    "sortnum": null
+  },
+  {
+    "id": "18",
+    "name": "湖南省",
+    "sortnum": null
+  },
+  {
+    "id": "19",
+    "name": "广东省",
+    "sortnum": null
+  },
+  {
+    "id": "20",
+    "name": "广西区",
+    "sortnum": null
+  },
+  {
+    "id": "21",
+    "name": "海南省",
+    "sortnum": null
+  },
+  {
+    "id": "22",
+    "name": "重庆市",
+    "sortnum": null
+  },
+  {
+    "id": "23",
+    "name": "四川省",
+    "sortnum": null
+  },
+  {
+    "id": "24",
+    "name": "贵州省",
+    "sortnum": null
+  },
+  {
+    "id": "25",
+    "name": "云南省",
+    "sortnum": null
+  },
+  {
+    "id": "26",
+    "name": "西藏区",
+    "sortnum": null
+  },
+  {
+    "id": "27",
+    "name": "陕西省",
+    "sortnum": null
+  },
+  {
+    "id": "28",
+    "name": "甘肃省",
+    "sortnum": null
+  },
+  {
+    "id": "29",
+    "name": "青海省",
+    "sortnum": null
+  },
+  {
+    "id": "30",
+    "name": "宁夏区",
+    "sortnum": null
+  },
+  {
+    "id": "31",
+    "name": "新疆区",
+    "sortnum": null
+  },
+  {
+    "id": "32",
+    "name": "台湾省",
+    "sortnum": null
+  },
+  {
+    "id": "33",
+    "name": "香港特区",
+    "sortnum": null
+  },
+  {
+    "id": "34",
+    "name": "澳门特区",
+    "sortnum": null
+  }
+]

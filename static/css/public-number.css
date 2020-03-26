@@ -1,0 +1,355 @@
+.popTab {
+  background-color: #9c27b0 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  border-radius: 30px;
+}
+.dialog-cover {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dialog-content {
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
+    0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+  border: none;
+  background-color: #fff;
+  outline: 0;
+  background-clip: padding-box;
+  z-index: 1111;
+  width: 720px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* unnecessary styling properties */
+  max-width: 50%;
+  text-align: center;
+  min-height: 570px;
+}
+.dialog-content .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.dialog-content .dialog-header {
+  padding: 5px;
+  text-align: left;
+}
+.dialog-content .dialog-header .tablist li {
+  display: block;
+  display: inline-block;
+  margin-right: 20px;
+}
+.dialog-content .dialog-header .tablist li a {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: center;
+  color: #555555;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.dialog-content .dialog-header .tablist li a:hover {
+  background-color: #eee;
+  border-radius: 30px;
+}
+.dialog-content .link-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.dialog-content .link-content .page {
+  text-align: left;
+}
+.dialog-content .link-content .page .link {
+  margin: 5px 0;
+  border-radius: 2px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  color: #333;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 15px;
+}
+.dialog-content .link-content .page .link:hover {
+  cursor: pointer;
+}
+.dialog-content .customize-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  text-align: left;
+}
+.dialog-content .customize-content .text {
+  margin-right: 40px;
+  vertical-align: top;
+  display: inline-block;
+  color: #333;
+}
+.dialog-content .customize-content .right {
+  display: inline-block;
+  width: 70%;
+}
+.dialog-content .customize-content .right .input {
+  width: 100%;
+  height: 90px;
+}
+.dialog-content .customize-content .right .insert {
+  background-color: #0ac0d2;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+  width: 70px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.dialog-content .customize-content .right .insert:hover {
+  cursor: pointer;
+}
+.dialog-content .search-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  text-align: left;
+  font-size: 0;
+}
+.dialog-content .search-content .sou {
+  width: 580px;
+  height: 30px;
+  color: #555;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  text-indent: 10px;
+  box-sizing: border-box;
+}
+.dialog-content .search-content .sou-btn {
+  border: 1px solid #ccc;
+  width: 10%;
+  box-sizing: border-box;
+  height: 31px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  color: #333;
+  border-left: none;
+  margin-top: 1px;
+  width: 50px;
+}
+.dialog-content .search-content .sou-btn:hover {
+  cursor: pointer;
+}
+.dialog-content .search-content .search-goods {
+  margin-top: 10px;
+}
+.dialog-content .search-content .search-goods .goods {
+  height: 70px;
+  width: 310px;
+  padding: 5px;
+  margin-right: 5px;
+  background: #f5f5f5;
+  float: left;
+  position: relative;
+}
+.dialog-content .search-content .search-goods .goods .info .img {
+  width: 20%;
+  min-height: 60px;
+  background: #eee;
+  float: left;
+}
+.dialog-content .search-content .search-goods .goods .info img {
+  width: 100%;
+  height: 100%;
+}
+.dialog-content .search-content .search-goods .goods .info .right-content {
+  float: left;
+  width:80%;
+}
+.dialog-content
+  .search-content
+  .search-goods
+  .goods
+  .info
+  .right-content
+  .top
+  .text {
+  font-size: 14px;
+  margin-left: 10px;
+  display: inline-block;
+  width:75%;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.dialog-content
+  .search-content
+  .search-goods
+  .goods
+  .info
+  .right-content
+  .top
+  .href {
+  color: #2093b4;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.dialog-content
+  .search-content
+  .search-goods
+  .goods
+  .info
+  .right-content
+  .bottom {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  margin-left: 10px;
+  color: #999;
+}
+.dialog-content .classification-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.dialog-content .classification-content .tree .first-tree {
+  width: 100%;
+  line-height: 36px;
+  color: #999;
+  border-bottom: 1px dashed #eee;
+}
+.dialog-content .classification-content .tree .first-tree .name {
+  float: left;
+}
+.dialog-content .classification-content .tree .first-tree .link-href {
+  float: right;
+  color: #2093b4;
+}
+.dialog-content .classification-content .tree .first-tree .link-href:hover {
+  cursor: pointer;
+}
+.dialog-content .classification-content .tree .first-tree:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.dialog-content .classification-content .tree .second-tree {
+  width: 100%;
+  line-height: 36px;
+  color: #999;
+  border-bottom: 1px dashed #eee;
+}
+.dialog-content .classification-content .tree .second-tree .name {
+  float: left;
+}
+.dialog-content .classification-content .tree .second-tree .name .line {
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border-bottom: 1px dashed #ddd;
+  border-left: 1px dashed #ddd;
+}
+.dialog-content .classification-content .tree .second-tree .link-href {
+  float: right;
+  color: #2093b4;
+}
+.dialog-content .classification-content .tree .second-tree .link-href:hover {
+  cursor: pointer;
+}
+.dialog-content .classification-content .tree .second-tree:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.dialog-content .classification-content .tree .tree-two .third-tree {
+  width: 100%;
+  line-height: 36px;
+  color: #999;
+  border-bottom: 1px dashed #eee;
+}
+.dialog-content .classification-content .tree .tree-two .third-tree .name {
+  float: left;
+}
+.dialog-content
+  .classification-content
+  .tree
+  .tree-two
+  .third-tree
+  .name
+  .line {
+  height: 10px;
+  width: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  border-bottom: 1px dashed #ddd;
+  border-left: 1px dashed #ddd;
+}
+.dialog-content .classification-content .tree .tree-two .third-tree .link-href {
+  float: right;
+  color: #2093b4;
+}
+.dialog-content
+  .classification-content
+  .tree
+  .tree-two
+  .third-tree
+  .link-href:hover {
+  cursor: pointer;
+}
+.dialog-content .classification-content .tree .tree-two .third-tree:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.dialog-content .brands-content {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.dialog-content .brands-content .link {
+  height: 36px;
+  border-bottom: 1px dashed #eee;
+  line-height: 36px;
+  color: #999;
+}
+.dialog-content .brands-content .link .name {
+  float: left;
+}
+.dialog-content .brands-content .link .link-href {
+  float: right;
+  color: #2093b4;
+}
+.dialog-content .brands-content .link .link-href:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "liebig/cron",
+    "description": "Job scheduling for Laravel",
+    "keywords": ["laravel", "cron", "cronjob", "cronmanager"],
+    "homepage": "http://liebig.github.io/cron",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Liebig",
+            "email": "marc.liebig@gmx.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "mtdowling/cron-expression": "1.*"
+    }, 
+    "require-dev": {
+        "illuminate/support": "4.0.x|~5.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Liebig\\Cron": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

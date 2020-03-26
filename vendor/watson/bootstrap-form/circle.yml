@@ -1,0 +1,12 @@
+machine:
+  php:
+    version: 5.6.5
+
+dependencies:
+  pre:
+    - echo "memory_limit = 1024M" > ~/.phpenv/versions/$(phpenv global)/etc/conf.d/memory.ini
+    - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
+
+test:
+  override:
+    - phpunit --coverage-html $CIRCLE_ARTIFACTS

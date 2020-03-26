@@ -1,0 +1,42 @@
+{
+    "name": "indigophp/supervisor",
+    "description": "PHP library for Supervisor",
+    "license": "MIT",
+    "keywords": ["supervisor", "process manager"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "lstrojny/fxmlrpc": "dev-master",
+        "guzzlehttp/guzzle": ">=4.0.0",
+        "zendframework/zend-xmlrpc": ">=2.3.3",
+        "phpspec/phpspec": "~2.1.0",
+        "henrikbjorn/phpspec-code-coverage" : "~1.0.0",
+        "behat/behat": "~3.0.0",
+        "rhumsaa/array_column": "~1.1.0",
+        "indigophp/supervisor-configuration": "~0.1.0"
+    },
+    "suggest": {
+        "lstrojny/fxmlrpc": "A modern, super fast XML/RPC client for PHP >=5.4",
+        "zendframework/zend-xmlrpc": "XmlRpc component from Zend Framework 2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigo\\Supervisor\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.1-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

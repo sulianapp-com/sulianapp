@@ -1,0 +1,320 @@
+.wrapper{
+    &:after{
+        display: table;
+        clear: both;
+        content: " ";
+    }
+
+    &.wrapper-full-page{
+        height: auto;
+        min-height: 100vh;
+    }
+}
+
+
+.full-page{
+
+    &:after,
+    &:before{
+        display: block;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    &:before{
+        background-color: rgba(0,0,0,.5);
+    }
+
+    &[filter-color="purple"],
+    &[filter-color="primary"]{
+        &:after{
+            @include linear-gradient(rgba($purple-100,.56), rgba($purple-300,.95));
+
+        }
+        @include lock-page-input-color($brand-primary);
+
+    }
+    &[filter-color="blue"],
+    &[filter-color="info"]{
+        &:after{
+            @include linear-gradient(rgba($cyan-100,.56), rgba($cyan-300,.95));
+        }
+        @include lock-page-input-color($brand-info);
+    }
+    &[filter-color="green"],
+    &[filter-color="success"]{
+        &:after{
+            @include linear-gradient(rgba($green-200,.56), rgba($green-400,.95));
+        }
+        @include lock-page-input-color($brand-success);
+    }
+    &[filter-color="orange"],
+    &[filter-color="warning"]{
+        &:after{
+            @include linear-gradient(rgba($orange-100,.56), rgba($orange-300,.95));
+        }
+        @include lock-page-input-color($brand-warning);
+    }
+
+    &[filter-color="red"],
+    &[filter-color="danger"]{
+        &:after{
+            @include linear-gradient(rgba($red-200,.56), rgba($red-400,.95));
+        }
+        @include lock-page-input-color($brand-danger);
+    }
+    &[filter-color="rose"]{
+        &:after{
+            @include linear-gradient(rgba($pink-100,.56), rgba($pink-300,.95));
+        }
+        @include lock-page-input-color($brand-rose);
+    }
+
+    &[data-image]:after{
+        opacity: .8;
+    }
+
+    > .content,
+    > .footer{
+        position: relative;
+        z-index: 4;
+    }
+
+    > .content{
+        min-height: calc(100vh - 80px);
+    }
+
+    .full-page-background{
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    .footer nav > ul a:not(.btn),
+    .footer,
+    .footer .copyright a{
+        color: $white-color;
+    }
+
+}
+
+.clear-filter{
+    &:before{
+        display: none;
+    }
+}
+
+.login-page,
+.lock-page{
+    > .content{
+        padding-top: 18vh;
+    }
+}
+
+.login-page{
+
+    .card-login{
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+        border-radius: $border-radius-large;
+        padding-bottom: $padding-default-horizontal;
+
+        @include transform-translate-y(0);
+        @extend .animation-transition-general;
+
+        &.card-hidden{
+            opacity: 0;
+            @include transform-translate-y(-60px);
+        }
+
+        .btn-wd{
+            min-width: 180px;
+        }
+
+        .card-header{
+            margin-top:-40px;
+            margin-bottom: 20px;
+
+            .title{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.lock-page{
+
+    .card-profile{
+        width: 240px;
+        margin: 60px auto 0;
+        color: #FFFFFF;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: block;
+
+        @include transform-translate-y(0);
+        @extend .animation-transition-general;
+
+        &.card-hidden{
+            opacity: 0;
+            @include transform-translate-y(-60px);
+        }
+
+        .card-avatar{
+            max-width: 90px;
+            max-height: 90px;
+            margin-top: -45px;
+        }
+
+        .card-footer{
+            border:none;
+            padding-top: 0;
+        }
+
+
+        .form-group{
+            text-align: left;
+
+            .form-control{
+                background-image: linear-gradient($brand-rose, $brand-rose), linear-gradient($mdb-input-underline-color, $mdb-input-underline-color);
+            }
+        }
+
+        &.with-animation{
+            @include transition(300ms, $transition-ease-in);
+        }
+    }
+
+}
+
+
+.register-page{
+
+    .card-signup{
+        border-radius: $border-radius-base * 2;
+        @include shadow-16dp();
+        margin-bottom: 100px;
+        padding: 40px 0px;
+
+        .info{
+            max-width: 360px;
+            margin: 0 auto;
+            padding: 0px;
+
+            .info-title{
+                color: #3C4858;
+                margin: 30px 0 15px;
+            }
+        }
+
+        .checkbox{
+            margin-top: 20px;
+            margin-bottom: 0;
+
+            label{
+                margin-left: 17px;
+            }
+
+            .checkbox-material{
+                padding-right: 20px;
+            }
+        }
+
+        .input-group{
+            .input-group-addon{
+                padding-top: 21px;
+            }
+        }
+
+        .info-horizontal{
+
+            .icon{
+                float: left;
+                margin-top: 24px;
+                margin-right: 10px;
+
+                i{
+                    font-size: 2.6em;
+                }
+
+                &.icon-primary{
+                    color: $brand-primary;
+                }
+                &.icon-info{
+                    color: $brand-info;
+                }
+                &.icon-success{
+                    color: $brand-success;
+                }
+                &.icon-warning{
+                    color: $brand-warning;
+                }
+                &.icon-danger{
+                    color: $brand-danger;
+                }
+                &.icon-rose{
+                    color: $brand-rose;
+                }
+            }
+
+            .description{
+                overflow: hidden;
+            }
+        }
+
+        .form-group{
+            margin:27px 0 0 7px;
+            padding-bottom: 0;
+        }
+    }
+
+    .container{
+        position: relative;
+        z-index: 3;
+        padding-top: 15vh;
+    }
+
+    .footer{
+        .container{
+            padding: 0;
+        }
+    }
+}
+
+.pricing-page{
+    .title{
+        color: $white-color;
+        margin-top: 13vh;
+    }
+
+    .section-space{
+        display: block;
+        height: 70px;
+    }
+
+    .card-plain{
+        .icon i,
+        .card-title{
+            color: $white-color;
+        }
+    }
+
+    .description{
+        color: $white-color;
+    }
+    &.full-page:before {
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+}

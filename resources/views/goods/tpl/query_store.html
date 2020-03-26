@@ -1,0 +1,15 @@
+<table class="table table-hover" style="min-width:850px;">
+    <tbody>   
+        {loop $ds $row}
+        <tr>
+            <td>{$row['storename']}</td>
+            <td style="width:80px;"><a href="javascript:;" onclick='select_store({php echo json_encode($row);})'>选择</a></td>
+        </tr>
+        {/loop}
+        {if count($ds)<=0}
+        <tr>
+            <td colspan='2' align='center'>未找到门店</td>
+        </tr>
+        {/if}
+    </tbody>
+</table>

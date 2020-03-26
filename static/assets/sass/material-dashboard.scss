@@ -1,0 +1,88 @@
+
+/*! =========================================================
+ *
+ Material Dashboard PRO - V1.2.0
+*
+* =========================================================
+*
+* Copyright 2016 Creative Tim (http://www.creative-tim.com/product/material-dashboard-pro)
+ *
+ *                       _oo0oo_
+ *                      o8888888o
+ *                      88" . "88
+ *                      (| -_- |)
+ *                      0\  =  /0
+ *                    ___/`---'\___
+ *                  .' \|     |// '.
+ *                 / \|||  :  |||// \
+ *                / _||||| -:- |||||- \
+ *               |   | \\  -  /// |   |
+ *               | \_|  ''\---/''  |_/ |
+ *               \  .-\__  '-'  ___/-. /
+ *             ___'. .'  /--.--\  `. .'___
+ *          ."" '<  `.___\_<|>_/___.' >' "".
+ *         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+ *         \  \ `_.   \_ __\ /__ _/   .-` /  /
+ *     =====`-.____`.___ \_____/___.-`___.-'=====
+ *                       `=---='
+ *
+ *     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *
+ *               Buddha Bless:  "No Bugs"
+ *
+ * ========================================================= */
+
+
+
+
+//variables and mixins
+@import "material-dashboard/variables";
+@import "material-dashboard/mixins";
+@import "material-dashboard/shadows";
+
+//plugin css
+@import "material-dashboard/plugins/plugin-nouislider";
+@import "material-dashboard/plugins/animate";
+@import "material-dashboard/plugins/sweetalert2";
+@import "material-dashboard/plugins/datatables.net";
+@import "material-dashboard/plugins/jquery.jvectormap";
+@import "material-dashboard/plugins/plugin-datetime-picker";
+@import "material-dashboard/plugins/fullcalendar";
+@import "material-dashboard/plugins/wizard-card";
+@import "material-dashboard/plugins/chartist";
+@import "material-dashboard/plugins/select-bootstrap";
+@import "material-dashboard/plugins/perfect-scrollbar";
+
+
+// Core CSS
+@import "material-dashboard/typography";
+@import "material-dashboard/sidebar-and-main-panel";
+@import "material-dashboard/buttons";
+@import "material-dashboard/misc";
+@import "material-dashboard/inputs";
+@import "material-dashboard/fileupload";
+@import "material-dashboard/alerts";
+@import "material-dashboard/tables";
+@import "material-dashboard/forms";
+@import "material-dashboard/checkboxes";
+@import "material-dashboard/radios";
+@import "material-dashboard/progress";
+@import "material-dashboard/togglebutton";
+@import "material-dashboard/pages";
+@import "material-dashboard/tags";
+@import "material-dashboard/timeline";
+@import "material-dashboard/ripples";
+@import "material-dashboard/panels";
+@import "material-dashboard/pagination";
+@import "material-dashboard/labels";
+@import "material-dashboard/pills";
+@import "material-dashboard/dialogs";
+@import "material-dashboard/navbars";
+@import "material-dashboard/popups";
+@import "material-dashboard/footers";
+
+// Fancy Stuff
+@import "material-dashboard/dropdown";
+@import "material-dashboard/cards";
+@import "material-dashboard/tabs";
+@import "material-dashboard/responsive";

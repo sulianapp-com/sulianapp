@@ -1,0 +1,22 @@
+{
+  "name": "iscms/alisms-for-laravel",
+  "description": "阿里大鱼laravel5封装包,提供简单明确的调用方法",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "秋綾",
+      "email": "root@iscloudx.com"
+    }
+  ],
+  "keywords": ["阿里云", "阿里大鱼", "大鱼", "bigfish","阿里云短信","短信接口","阿里云大鱼短信","alisms"],
+  "homepage": "https://www.iscloudx.com",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "iscms\\Alisms\\": "src/",
+      "iscms\\AlismsSdk\\": "src/vendor/"
+    }
+  }
+}

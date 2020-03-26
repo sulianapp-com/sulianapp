@@ -1,0 +1,362 @@
+[
+  {
+    "name": "顺丰",
+    "value": "shunfeng"
+  },
+  {
+    "name": "申通",
+    "value": "shentong"
+  },
+  {
+    "name": "韵达快运",
+    "value": "yunda"
+  },
+  {
+    "name": "天天快递",
+    "value": "tiantian"
+  },
+  {
+    "name": "圆通速递",
+    "value": "yuantong"
+  },
+  {
+    "name": "中通速递",
+    "value": "zhongtong"
+  },
+  {
+    "name": "ems快递",
+    "value": "ems"
+  },
+  {
+    "name": "汇通快运",
+    "value": "huitongkuaidi"
+  },
+  {
+    "name": "全峰快递",
+    "value": "quanfengkuaidi"
+  },
+  {
+    "name": "宅急送",
+    "value": "zhaijisong"
+  },
+  {
+    "name": "aae全球专递",
+    "value": "aae"
+  },
+  {
+    "name": "安捷快递",
+    "value": "anjie"
+  },
+  {
+    "name": "安信达快递",
+    "value": "anxindakuaixi"
+  },
+  {
+    "name": "彪记快递",
+    "value": "biaojikuaidi"
+  },
+  {
+    "name": "bht",
+    "value": "bht"
+  },
+  {
+    "name": "百福东方国际物流",
+    "value": "baifudongfang"
+  },
+  {
+    "name": "中国东方（COE）",
+    "value": "coe"
+  },
+  {
+    "name": "长宇物流",
+    "value": "changyuwuliu"
+  },
+  {
+    "name": "大田物流",
+    "value": "datianwuliu"
+  },
+  {
+    "name": "德邦物流",
+    "value": "debangwuliu"
+  },
+  {
+    "name": "dhl",
+    "value": "dhl"
+  },
+  {
+    "name": "dpex",
+    "value": "dpex"
+  },
+  {
+    "name": "d速快递",
+    "value": "dsukuaidi"
+  },
+  {
+    "name": "递四方",
+    "value": "disifang"
+  },
+  {
+    "name": "fedex（国外）",
+    "value": "fedex"
+  },
+  {
+    "name": "飞康达物流",
+    "value": "feikangda"
+  },
+  {
+    "name": "凤凰快递",
+    "value": "fenghuangkuaidi"
+  },
+  {
+    "name": "飞快达",
+    "value": "feikuaida"
+  },
+  {
+    "name": "国通快递",
+    "value": "guotongkuaidi"
+  },
+  {
+    "name": "港中能达物流",
+    "value": "ganzhongnengda"
+  },
+  {
+    "name": "广东邮政物流",
+    "value": "guangdongyouzhengwuliu"
+  },
+  {
+    "name": "共速达",
+    "value": "gongsuda"
+  },
+  {
+    "name": "恒路物流",
+    "value": "hengluwuliu"
+  },
+  {
+    "name": "华夏龙物流",
+    "value": "huaxialongwuliu"
+  },
+  {
+    "name": "海红",
+    "value": "haihongwangsong"
+  },
+  {
+    "name": "海外环球",
+    "value": "haiwaihuanqiu"
+  },
+  {
+    "name": "佳怡物流",
+    "value": "jiayiwuliu"
+  },
+  {
+    "name": "京广速递",
+    "value": "jinguangsudikuaijian"
+  },
+  {
+    "name": "急先达",
+    "value": "jixianda"
+  },
+  {
+    "name": "佳吉物流",
+    "value": "jjwl"
+  },
+  {
+    "name": "加运美物流",
+    "value": "jymwl"
+  },
+  {
+    "name": "金大物流",
+    "value": "jindawuliu"
+  },
+  {
+    "name": "嘉里大通",
+    "value": "jialidatong"
+  },
+  {
+    "name": "晋越快递",
+    "value": "jykd"
+  },
+  {
+    "name": "快捷速递",
+    "value": "kuaijiesudi"
+  },
+  {
+    "name": "联邦快递（国内）",
+    "value": "lianb"
+  },
+  {
+    "name": "联昊通物流",
+    "value": "lianhaowuliu"
+  },
+  {
+    "name": "龙邦物流",
+    "value": "longbanwuliu"
+  },
+  {
+    "name": "立即送",
+    "value": "lijisong"
+  },
+  {
+    "name": "乐捷递",
+    "value": "lejiedi"
+  },
+  {
+    "name": "民航快递",
+    "value": "minghangkuaidi"
+  },
+  {
+    "name": "美国快递",
+    "value": "meiguokuaidi"
+  },
+  {
+    "name": "门对门",
+    "value": "menduimen"
+  },
+  {
+    "name": "OCS",
+    "value": "ocs"
+  },
+  {
+    "name": "配思货运",
+    "value": "peisihuoyunkuaidi"
+  },
+  {
+    "name": "全晨快递",
+    "value": "quanchenkuaidi"
+  },
+  {
+    "name": "全际通物流",
+    "value": "quanjitong"
+  },
+  {
+    "name": "全日通快递",
+    "value": "quanritongkuaidi"
+  },
+  {
+    "name": "全一快递",
+    "value": "quanyikuaidi"
+  },
+  {
+    "name": "如风达",
+    "value": "rufengda"
+  },
+  {
+    "name": "三态速递",
+    "value": "santaisudi"
+  },
+  {
+    "name": "盛辉物流",
+    "value": "shenghuiwuliu"
+  },
+  {
+    "name": "速尔物流",
+    "value": "sue"
+  },
+  {
+    "name": "盛丰物流",
+    "value": "shengfeng"
+  },
+  {
+    "name": "赛澳递",
+    "value": "saiaodi"
+  },
+  {
+    "name": "天地华宇",
+    "value": "tiandihuayu"
+  },
+  {
+    "name": "tnt",
+    "value": "tnt"
+  },
+  {
+    "name": "ups",
+    "value": "ups"
+  },
+  {
+    "name": "万家物流",
+    "value": "wanjiawuliu"
+  },
+  {
+    "name": "文捷航空速递",
+    "value": "wenjiesudi"
+  },
+  {
+    "name": "伍圆",
+    "value": "wuyuan"
+  },
+  {
+    "name": "万象物流",
+    "value": "wxwl"
+  },
+  {
+    "name": "新邦物流",
+    "value": "xinbangwuliu"
+  },
+  {
+    "name": "信丰物流",
+    "value": "xinfengwuliu"
+  },
+  {
+    "name": "亚风速递",
+    "value": "yafengsudi"
+  },
+  {
+    "name": "一邦速递",
+    "value": "yibangwuliu"
+  },
+  {
+    "name": "优速物流",
+    "value": "youshuwuliu"
+  },
+  {
+    "name": "邮政包裹挂号信",
+    "value": "youzhengguonei"
+  },
+  {
+    "name": "邮政国际包裹挂号信",
+    "value": "youzhengguoji"
+  },
+  {
+    "name": "远成物流",
+    "value": "yuanchengwuliu"
+  },
+  {
+    "name": "源伟丰快递",
+    "value": "yuanweifeng"
+  },
+  {
+    "name": "元智捷诚快递",
+    "value": "yuanzhijiecheng"
+  },
+  {
+    "name": "运通快递",
+    "value": "yuntongkuaidi"
+  },
+  {
+    "name": "越丰物流",
+    "value": "yuefengwuliu"
+  },
+  {
+    "name": "源安达",
+    "value": "yad"
+  },
+  {
+    "name": "银捷速递",
+    "value": "yinjiesudi"
+  },
+  {
+    "name": "中铁快运",
+    "value": "zhongtiekuaiyun"
+  },
+  {
+    "name": "中邮物流",
+    "value": "zhongyouwuliu"
+  },
+  {
+    "name": "忠信达",
+    "value": "zhongxinda"
+  },
+  {
+    "name": "芝麻开门",
+    "value": "zhimakaimen"
+  }
+]

@@ -1,0 +1,53 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7.0
+  - hhvm
+
+matrix:
+    # current versions of hhvm do fail one test... see https://github.com/facebook/hhvm/issues/4837
+    allow_failures:
+        - php: hhvm
+
+before_install:
+  # This is mandatory or the 'apt-get install' calls following will fail
+  - sudo apt-get update -qq
+  - sudo apt-get install -y apache2 libapache2-mod-fastcgi
+  - sudo apt-get install -y privoxy
+
+install:
+  - composer self-update && composer install
+
+before_script:
+  # Disable xdebug for speed.
+  # NB: this should NOT be done for hhvm and php 7.0.
+  # Also we use the php 5.6 run to generate code coverage reports, and we need xdebug for that
+  - if [ "$TRAVIS_PHP_VERSION" != "hhvm" -a "$TRAVIS_PHP_VERSION" != "7.0" -a "$TRAVIS_PHP_VERSION" != "5.6" ]; then phpenv config-rm xdebug.ini; fi
+
+  # Set up Apache and Privoxy instances inside the Travis VM and use them for testing against
+  - if [ "$TRAVIS_PHP_VERSION" != "hhvm" ]; then ./tests/ci/travis/setup_php_fpm.sh; ./tests/ci/travis/setup_apache.sh; fi
+  - if [ "$TRAVIS_PHP_VERSION" = "hhvm" ]; then ./tests/ci/travis/setup_hhvm.sh; ./tests/ci/travis/setup_apache_hhvm.sh; fi
+  - ./tests/ci/travis/setup_privoxy.sh
+
+script:
+  # Travis currently compiles PHP with an oldish cURL/GnuTLS combination;
+  # to make the tests pass when Apache has a bogus SSL cert whe need the full set of options below
+  vendor/bin/phpunit --coverage-clover=coverage.clover tests LOCALSERVER=localhost URI=/demo/server/server.php HTTPSSERVER=localhost HTTPSURI=/demo/server/server.php PROXY=localhost:8080 HTTPSVERIFYHOST=0 HTTPSIGNOREPEER=1 SSLVERSION=3 DEBUG=1
+
+after_failure:
+  # Save as much info as we can to help developers
+  - cat apache_error.log
+  - cat apache_access.log
+  #- cat /var/log/hhvm/error.log
+  #- if [ "$TRAVIS_PHP_VERSION" = "hhvm" ]; then php -i; fi
+
+after_script:
+  # Upload code-coverage to Scrutinizer
+  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
+  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
+  # Upload code-coverage CodeClimate
+  - if [ "$TRAVIS_PHP_VERSION" = "5.6" ]; then CODECLIMATE_REPO_TOKEN=7fa6ee01e345090e059e5e42f3bfbcc8692feb8340396382dd76390a3019ac13 ./vendor/bin/test-reporter --coverage-report=coverage.clover; fi

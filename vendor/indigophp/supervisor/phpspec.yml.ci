@@ -1,0 +1,10 @@
+suites:
+  supervisor_suite:
+    namespace: Indigo\Supervisor
+    psr4_prefix: Indigo\Supervisor
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+formatter.name: pretty
+code_coverage:
+  format: clover
+  output: build/coverage.xml

@@ -1,0 +1,22 @@
+<table class="table table-hover" style="min-width:850px;">
+    <thead>
+        <th>核销员</th>
+        <th>信息</th>
+        <th>门店</th>
+    </thead>
+    <tbody>   
+        {loop $ds $row}
+        <tr>
+            <td><img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' /> {$row['nickname']}</td>
+            <td>{$row['realname']}/{$row['mobile']}</td>
+            <td>{if empty($row['storename'])}全店核销{else}{$row['storename']}{/if}</td>
+            <td style="width:80px;"><a href="javascript:;" onclick='select_saler({php echo json_encode($row);})'>选择</a></td>
+        </tr>
+        {/loop}
+        {if count($ds)<=0}
+        <tr> 
+            <td colspan='4' align='center'>未找到核销员</td>
+        </tr>
+        {/if}
+    </tbody>
+</table>

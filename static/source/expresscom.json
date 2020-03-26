@@ -1,0 +1,1682 @@
+[
+  {
+    "name": "顺丰速运",
+    "value": "SF"
+  },
+  {
+    "name": "百世快递",
+    "value": "HTKY"
+  },
+  {
+    "name": "中通快递",
+    "value": "ZTO"
+  },
+  {
+    "name": "申通快递",
+    "value": "STO"
+  },
+  {
+    "name": "圆通速递",
+    "value": "YTO"
+  },
+  {
+    "name": "韵达速递",
+    "value": "YD"
+  },
+  {
+    "name": "邮政快递包裹",
+    "value": "YZPY"
+  },
+  {
+    "name": "EMS",
+    "value": "EMS"
+  },
+  {
+    "name": "天天快递",
+    "value": "HHTT"
+  },
+  {
+    "name": "京东快递",
+    "value": "JD"
+  },
+  {
+    "name": "优速快递",
+    "value": "UC"
+  },
+  {
+    "name": "德邦快递",
+    "value": "DBL"
+  },
+  {
+    "name": "宅急送",
+    "value": "ZJS"
+  },
+  {
+    "name": "TNT快递",
+    "value": "TNT"
+  },
+  {
+    "name": "UPS",
+    "value": "UPS"
+  },
+  {
+    "name": "DHL",
+    "value": "DHL"
+  },
+  {
+    "name": "FEDEX联邦(国内件）",
+    "value": "FEDEX"
+  },
+  {
+    "name": "FEDEX联邦(国际件）",
+    "value": "FEDEX_GJ"
+  },
+  {
+    "name": "安捷快递",
+    "value": "AJ"
+  },
+  {
+    "name": "阿里跨境电商物流",
+    "value": "ALKJWL"
+  },
+  {
+    "name": "安讯物流",
+    "value": "AXWL"
+  },
+  {
+    "name": "安邮美国",
+    "value": "AYUS"
+  },
+  {
+    "name": "亚马逊物流",
+    "value": "AMAZON"
+  },
+  {
+    "name": "澳门邮政",
+    "value": "AOMENYZ"
+  },
+  {
+    "name": "安能物流",
+    "value": "ANE"
+  },
+  {
+    "name": "澳多多",
+    "value": "ADD"
+  },
+  {
+    "name": "澳邮专线",
+    "value": "AYCA"
+  },
+  {
+    "name": "安鲜达",
+    "value": "AXD"
+  },
+  {
+    "name": "安能快运",
+    "value": "ANEKY"
+  },
+  {
+    "name": "八达通  ",
+    "value": "BDT"
+  },
+  {
+    "name": "百腾物流",
+    "value": "BETWL"
+  },
+  {
+    "name": "北极星快运",
+    "value": "BJXKY"
+  },
+  {
+    "name": "奔腾物流",
+    "value": "BNTWL"
+  },
+  {
+    "name": "百福东方",
+    "value": "BFDF"
+  },
+  {
+    "name": "贝海国际 ",
+    "value": "BHGJ"
+  },
+  {
+    "name": "八方安运",
+    "value": "BFAY"
+  },
+  {
+    "name": "百世快运",
+    "value": "BTWL"
+  },
+  {
+    "name": "春风物流",
+    "value": "CFWL"
+  },
+  {
+    "name": "诚通物流",
+    "value": "CHTWL"
+  },
+  {
+    "name": "传喜物流",
+    "value": "CXHY"
+  },
+  {
+    "name": "程光   ",
+    "value": "CG"
+  },
+  {
+    "name": "城市100",
+    "value": "CITY100"
+  },
+  {
+    "name": "城际快递",
+    "value": "CJKD"
+  },
+  {
+    "name": "CNPEX中邮快递",
+    "value": "CNPEX"
+  },
+  {
+    "name": "COE东方快递",
+    "value": "COE"
+  },
+  {
+    "name": "长沙创一",
+    "value": "CSCY"
+  },
+  {
+    "name": "成都善途速运",
+    "value": "CDSTKY"
+  },
+  {
+    "name": "联合运通",
+    "value": "CTG"
+  },
+  {
+    "name": "疯狂快递",
+    "value": "CRAZY"
+  },
+  {
+    "name": "CBO钏博物流",
+    "value": "CBO"
+  },
+  {
+    "name": "承诺达",
+    "value": "CND"
+  },
+  {
+    "name": "D速物流",
+    "value": "DSWL"
+  },
+  {
+    "name": "到了港",
+    "value": "DLG "
+  },
+  {
+    "name": "大田物流",
+    "value": "DTWL"
+  },
+  {
+    "name": "东骏快捷物流",
+    "value": "DJKJWL"
+  },
+  {
+    "name": "德坤",
+    "value": "DEKUN"
+  },
+  {
+    "name": "德邦快运",
+    "value": "DBLKY"
+  },
+  {
+    "name": "E特快",
+    "value": "ETK"
+  },
+  {
+    "name": "EWE",
+    "value": "EWE"
+  },
+  {
+    "name": "快服务",
+    "value": "KFW"
+  },
+  {
+    "name": "飞康达",
+    "value": "FKD"
+  },
+  {
+    "name": "富腾达  ",
+    "value": "FTD"
+  },
+  {
+    "name": "凡宇货的",
+    "value": "FYKD"
+  },
+  {
+    "name": "速派快递",
+    "value": "FASTGO"
+  },
+  {
+    "name": "丰通快运",
+    "value": "FT"
+  },
+  {
+    "name": "冠达   ",
+    "value": "GD"
+  },
+  {
+    "name": "国通快递",
+    "value": "GTO"
+  },
+  {
+    "name": "广东邮政",
+    "value": "GDEMS"
+  },
+  {
+    "name": "共速达",
+    "value": "GSD"
+  },
+  {
+    "name": "广通       ",
+    "value": "GTONG"
+  },
+  {
+    "name": "迦递快递",
+    "value": "GAI"
+  },
+  {
+    "name": "港快速递",
+    "value": "GKSD"
+  },
+  {
+    "name": "高铁速递",
+    "value": "GTSD"
+  },
+  {
+    "name": "汇丰物流",
+    "value": "HFWL"
+  },
+  {
+    "name": "黑狗冷链",
+    "value": "HGLL"
+  },
+  {
+    "name": "恒路物流",
+    "value": "HLWL"
+  },
+  {
+    "name": "天地华宇",
+    "value": "HOAU"
+  },
+  {
+    "name": "鸿桥供应链",
+    "value": "HOTSCM"
+  },
+  {
+    "name": "海派通物流公司",
+    "value": "HPTEX"
+  },
+  {
+    "name": "华强物流",
+    "value": "hq568"
+  },
+  {
+    "name": "环球速运  ",
+    "value": "HQSY"
+  },
+  {
+    "name": "华夏龙物流",
+    "value": "HXLWL"
+  },
+  {
+    "name": "豪翔物流 ",
+    "value": "HXWL"
+  },
+  {
+    "name": "合肥汇文",
+    "value": "HFHW"
+  },
+  {
+    "name": "辉隆物流",
+    "value": "HLONGWL"
+  },
+  {
+    "name": "华企快递",
+    "value": "HQKD"
+  },
+  {
+    "name": "韩润物流",
+    "value": "HRWL"
+  },
+  {
+    "name": "青岛恒通快递",
+    "value": "HTKD"
+  },
+  {
+    "name": "货运皇物流",
+    "value": "HYH"
+  },
+  {
+    "name": "好来运快递",
+    "value": "HYLSD"
+  },
+  {
+    "name": "皇家物流",
+    "value": "HJWL"
+  },
+  {
+    "name": "捷安达  ",
+    "value": "JAD"
+  },
+  {
+    "name": "京广速递",
+    "value": "JGSD"
+  },
+  {
+    "name": "九曳供应链",
+    "value": "JIUYE"
+  },
+  {
+    "name": "急先达",
+    "value": "JXD"
+  },
+  {
+    "name": "晋越快递",
+    "value": "JYKD"
+  },
+  {
+    "name": "加运美",
+    "value": "JYM"
+  },
+  {
+    "name": "景光物流",
+    "value": "JGWL"
+  },
+  {
+    "name": "佳怡物流",
+    "value": "JYWL"
+  },
+  {
+    "name": "京东快运",
+    "value": "JDKY"
+  },
+  {
+    "name": "跨越速运",
+    "value": "KYSY"
+  },
+  {
+    "name": "跨越物流",
+    "value": "KYWL"
+  },
+  {
+    "name": "快速递物流",
+    "value": "KSDWL"
+  },
+  {
+    "name": "龙邦快递",
+    "value": "LB"
+  },
+  {
+    "name": "立即送",
+    "value": "LJSKD"
+  },
+  {
+    "name": "联昊通速递",
+    "value": "LHT"
+  },
+  {
+    "name": "民邦快递",
+    "value": "MB"
+  },
+  {
+    "name": "民航快递",
+    "value": "MHKD"
+  },
+  {
+    "name": "美快    ",
+    "value": "MK"
+  },
+  {
+    "name": "门对门快递",
+    "value": "MDM"
+  },
+  {
+    "name": "迈隆递运",
+    "value": "MRDY"
+  },
+  {
+    "name": "明亮物流",
+    "value": "MLWL"
+  },
+  {
+    "name": "南方",
+    "value": "NF"
+  },
+  {
+    "name": "南方传媒物流",
+    "value": "NFCM"
+  },
+  {
+    "name": "能达速递",
+    "value": "NEDA"
+  },
+  {
+    "name": "平安达腾飞快递",
+    "value": "PADTF"
+  },
+  {
+    "name": "泛捷快递",
+    "value": "PANEX"
+  },
+  {
+    "name": "品骏快递",
+    "value": "PJ"
+  },
+  {
+    "name": "PCA Express",
+    "value": "PCA"
+  },
+  {
+    "name": "全晨快递",
+    "value": "QCKD"
+  },
+  {
+    "name": "全日通快递",
+    "value": "QRT"
+  },
+  {
+    "name": "快客快递",
+    "value": "QUICK"
+  },
+  {
+    "name": "全信通",
+    "value": "QXT"
+  },
+  {
+    "name": "如风达",
+    "value": "RFD"
+  },
+  {
+    "name": "日日顺物流",
+    "value": "RRS"
+  },
+  {
+    "name": "瑞丰速递",
+    "value": "RFEX"
+  },
+  {
+    "name": "赛澳递",
+    "value": "SAD"
+  },
+  {
+    "name": "苏宁物流",
+    "value": "SNWL"
+  },
+  {
+    "name": "圣安物流",
+    "value": "SAWL"
+  },
+  {
+    "name": "晟邦物流",
+    "value": "SBWL"
+  },
+  {
+    "name": "上大物流",
+    "value": "SDWL"
+  },
+  {
+    "name": "盛丰物流",
+    "value": "SFWL"
+  },
+  {
+    "name": "速通物流",
+    "value": "ST"
+  },
+  {
+    "name": "速腾快递",
+    "value": "STWL"
+  },
+  {
+    "name": "速必达物流",
+    "value": "SUBIDA"
+  },
+  {
+    "name": "速递e站",
+    "value": "SDEZ"
+  },
+  {
+    "name": "速呈宅配",
+    "value": "SCZPDS"
+  },
+  {
+    "name": "速尔快递",
+    "value": "SURE"
+  },
+  {
+    "name": "台湾邮政",
+    "value": "TAIWANYZ"
+  },
+  {
+    "name": "唐山申通",
+    "value": "TSSTO"
+  },
+  {
+    "name": "通用物流",
+    "value": "TYWL"
+  },
+  {
+    "name": "全一快递",
+    "value": "UAPEX"
+  },
+  {
+    "name": "优联吉运",
+    "value": "ULUCKEX"
+  },
+  {
+    "name": "UEQ Express",
+    "value": "UEQ"
+  },
+  {
+    "name": "万家康  ",
+    "value": "WJK"
+  },
+  {
+    "name": "万家物流",
+    "value": "WJWL"
+  },
+  {
+    "name": "武汉同舟行",
+    "value": "WHTZX"
+  },
+  {
+    "name": "维普恩",
+    "value": "WPE"
+  },
+  {
+    "name": "微特派",
+    "value": "WTP"
+  },
+  {
+    "name": "迅驰物流  ",
+    "value": "XCWL"
+  },
+  {
+    "name": "信丰物流",
+    "value": "XFEX"
+  },
+  {
+    "name": "希优特",
+    "value": "XYT"
+  },
+  {
+    "name": "新杰物流",
+    "value": "XJ"
+  },
+  {
+    "name": "源安达快递",
+    "value": "YADEX"
+  },
+  {
+    "name": "远成物流",
+    "value": "YCWL"
+  },
+  {
+    "name": "远成快运",
+    "value": "YCSY"
+  },
+  {
+    "name": "义达国际物流",
+    "value": "YDH"
+  },
+  {
+    "name": "易达通  ",
+    "value": "YDT"
+  },
+  {
+    "name": "越丰物流",
+    "value": "YFEX"
+  },
+  {
+    "name": "原飞航物流",
+    "value": "YFHEX"
+  },
+  {
+    "name": "亚风快递",
+    "value": "YFSD"
+  },
+  {
+    "name": "运通快递",
+    "value": "YTKD"
+  },
+  {
+    "name": "亿翔快递",
+    "value": "YXKD"
+  },
+  {
+    "name": "运东西网",
+    "value": "YUNDX"
+  },
+  {
+    "name": "壹米滴答",
+    "value": "YMDD"
+  },
+  {
+    "name": "邮政国内标快",
+    "value": "YZBK"
+  },
+  {
+    "name": "一站通速运",
+    "value": "YZTSY"
+  },
+  {
+    "name": "驭丰速运",
+    "value": "YFSUYUN"
+  },
+  {
+    "name": "增益快递",
+    "value": "ZENY"
+  },
+  {
+    "name": "汇强快递",
+    "value": "ZHQKD"
+  },
+  {
+    "name": "众通快递",
+    "value": "ZTE"
+  },
+  {
+    "name": "中铁快运",
+    "value": "ZTKY"
+  },
+  {
+    "name": "中铁物流",
+    "value": "ZTWL"
+  },
+  {
+    "name": "郑州速捷",
+    "value": "SJ"
+  },
+  {
+    "name": "中通快运",
+    "value": "ZTOKY"
+  },
+  {
+    "name": "中邮快递",
+    "value": "ZYKD"
+  },
+  {
+    "name": "中粮我买网",
+    "value": "WM"
+  },
+  {
+    "name": "",
+    "value": ""
+  },
+  {
+    "name": "AAE全球专递",
+    "value": "AAE"
+  },
+  {
+    "name": "ACS雅仕快递",
+    "value": "ACS"
+  },
+  {
+    "name": "ADP Express Tracking",
+    "value": "ADP"
+  },
+  {
+    "name": "安圭拉邮政",
+    "value": "ANGUILAYOU"
+  },
+  {
+    "name": "APAC",
+    "value": "APAC"
+  },
+  {
+    "name": "Aramex",
+    "value": "ARAMEX"
+  },
+  {
+    "name": "奥地利邮政",
+    "value": "AT"
+  },
+  {
+    "name": "Australia Post Tracking",
+    "value": "AUSTRALIA"
+  },
+  {
+    "name": "比利时邮政",
+    "value": "BEL"
+  },
+  {
+    "name": "BHT快递",
+    "value": "BHT"
+  },
+  {
+    "name": "秘鲁邮政",
+    "value": "BILUYOUZHE"
+  },
+  {
+    "name": "巴西邮政",
+    "value": "BR"
+  },
+  {
+    "name": "不丹邮政",
+    "value": "BUDANYOUZH"
+  },
+  {
+    "name": "CDEK",
+    "value": "CDEK"
+  },
+  {
+    "name": "加拿大邮政",
+    "value": "CA"
+  },
+  {
+    "name": "递必易国际物流",
+    "value": "DBYWL"
+  },
+  {
+    "name": "大道物流",
+    "value": "DDWL"
+  },
+  {
+    "name": "德国云快递",
+    "value": "DGYKD"
+  },
+  {
+    "name": "到乐国际",
+    "value": "DLGJ"
+  },
+  {
+    "name": "DHL德国",
+    "value": "DHL_DE"
+  },
+  {
+    "name": "DHL(英文版)",
+    "value": "DHL_EN"
+  },
+  {
+    "name": "DHL全球",
+    "value": "DHL_GLB"
+  },
+  {
+    "name": "DHL Global Mail",
+    "value": "DHLGM"
+  },
+  {
+    "name": "丹麦邮政",
+    "value": "DK"
+  },
+  {
+    "name": "DPD",
+    "value": "DPD"
+  },
+  {
+    "name": "DPEX",
+    "value": "DPEX"
+  },
+  {
+    "name": "EMS国际",
+    "value": "EMSGJ"
+  },
+  {
+    "name": "易客满",
+    "value": "EKM"
+  },
+  {
+    "name": "EPS (联众国际快运)",
+    "value": "EPS"
+  },
+  {
+    "name": "EShipper",
+    "value": "ESHIPPER"
+  },
+  {
+    "name": "丰程物流",
+    "value": "FCWL"
+  },
+  {
+    "name": "法翔速运",
+    "value": "FX"
+  },
+  {
+    "name": "FQ",
+    "value": "FQ"
+  },
+  {
+    "name": "国际e邮宝",
+    "value": "GJEYB"
+  },
+  {
+    "name": "国际邮政包裹",
+    "value": "GJYZ"
+  },
+  {
+    "name": "GE2D",
+    "value": "GE2D"
+  },
+  {
+    "name": "冠泰",
+    "value": "GT"
+  },
+  {
+    "name": "GLS",
+    "value": "GLS"
+  },
+  {
+    "name": "安的列斯群岛邮政",
+    "value": "IADLSQDYZ"
+  },
+  {
+    "name": "欧洲专线(邮政)",
+    "value": "IOZYZ"
+  },
+  {
+    "name": "澳大利亚邮政",
+    "value": "IADLYYZ"
+  },
+  {
+    "name": "阿尔巴尼亚邮政",
+    "value": "IAEBNYYZ"
+  },
+  {
+    "name": "阿尔及利亚邮政",
+    "value": "IAEJLYYZ"
+  },
+  {
+    "name": "阿富汗邮政",
+    "value": "IAFHYZ"
+  },
+  {
+    "name": "安哥拉邮政",
+    "value": "IAGLYZ"
+  },
+  {
+    "name": "阿根廷邮政",
+    "value": "IAGTYZ"
+  },
+  {
+    "name": "埃及邮政",
+    "value": "IAJYZ"
+  },
+  {
+    "name": "阿鲁巴邮政",
+    "value": "IALBYZ"
+  },
+  {
+    "name": "奥兰群岛邮政",
+    "value": "IALQDYZ"
+  },
+  {
+    "name": "阿联酋邮政",
+    "value": "IALYYZ"
+  },
+  {
+    "name": "阿曼邮政",
+    "value": "IAMYZ"
+  },
+  {
+    "name": "阿塞拜疆邮政",
+    "value": "IASBJYZ"
+  },
+  {
+    "name": "爱沙尼亚邮政",
+    "value": "IASNYYZ"
+  },
+  {
+    "name": "博茨瓦纳邮政",
+    "value": "IBCWNYZ"
+  },
+  {
+    "name": "波多黎各邮政",
+    "value": "IBDLGYZ"
+  },
+  {
+    "name": "冰岛邮政",
+    "value": "IBDYZ"
+  },
+  {
+    "name": "白俄罗斯邮政",
+    "value": "IBELSYZ"
+  },
+  {
+    "name": "波黑邮政",
+    "value": "IBHYZ"
+  },
+  {
+    "name": "保加利亚邮政",
+    "value": "IBJLYYZ"
+  },
+  {
+    "name": "巴基斯坦邮政",
+    "value": "IBJSTYZ"
+  },
+  {
+    "name": "黎巴嫩邮政",
+    "value": "IBLNYZ"
+  },
+  {
+    "name": "便利速递",
+    "value": "IBLSD"
+  },
+  {
+    "name": "玻利维亚邮政",
+    "value": "IBLWYYZ"
+  },
+  {
+    "name": "百慕达邮政",
+    "value": "IBMDYZ"
+  },
+  {
+    "name": "波兰邮政",
+    "value": "IBOLYZ"
+  },
+  {
+    "name": "宝通达",
+    "value": "IBTD"
+  },
+  {
+    "name": "贝邮宝",
+    "value": "IBYB"
+  },
+  {
+    "name": "出口易",
+    "value": "ICKY"
+  },
+  {
+    "name": "达方物流",
+    "value": "IDFWL"
+  },
+  {
+    "name": "德国邮政",
+    "value": "IDGYZ"
+  },
+  {
+    "name": "危地马拉邮政",
+    "value": "IWDMLYZ"
+  },
+  {
+    "name": "乌干达邮政",
+    "value": "IWGDYZ"
+  },
+  {
+    "name": "乌克兰EMS",
+    "value": "IWKLEMS"
+  },
+  {
+    "name": "乌克兰邮政",
+    "value": "IWKLYZ"
+  },
+  {
+    "name": "乌拉圭邮政",
+    "value": "IWLGYZ"
+  },
+  {
+    "name": "林克快递",
+    "value": "ILKKD"
+  },
+  {
+    "name": "文莱邮政",
+    "value": "IWLYZ"
+  },
+  {
+    "name": "新喀里多尼亚邮政",
+    "value": "IXGLDNYYZ"
+  },
+  {
+    "name": "爱尔兰邮政",
+    "value": "IE"
+  },
+  {
+    "name": "夏浦物流",
+    "value": "IXPWL"
+  },
+  {
+    "name": "叙利亚邮政",
+    "value": "IXLYYZ"
+  },
+  {
+    "name": "印度邮政",
+    "value": "IYDYZ"
+  },
+  {
+    "name": "夏浦世纪",
+    "value": "IXPSJ"
+  },
+  {
+    "name": "厄瓜多尔邮政",
+    "value": "IEGDEYZ"
+  },
+  {
+    "name": "俄罗斯邮政",
+    "value": "IELSYZ"
+  },
+  {
+    "name": "厄立特里亚邮政",
+    "value": "IELTLYYZ"
+  },
+  {
+    "name": "飞特物流",
+    "value": "IFTWL"
+  },
+  {
+    "name": "瓜德罗普岛邮政",
+    "value": "IGDLPDYZ"
+  },
+  {
+    "name": "哥斯达黎加邮政",
+    "value": "IGSDLJYZ"
+  },
+  {
+    "name": "韩国邮政",
+    "value": "IHGYZ"
+  },
+  {
+    "name": "华翰物流",
+    "value": "IHHWL"
+  },
+  {
+    "name": "互联易",
+    "value": "IHLY"
+  },
+  {
+    "name": "哈萨克斯坦邮政",
+    "value": "IHSKSTYZ"
+  },
+  {
+    "name": "黑山邮政",
+    "value": "IHSYZ"
+  },
+  {
+    "name": "津巴布韦邮政",
+    "value": "IJBBWYZ"
+  },
+  {
+    "name": "吉尔吉斯斯坦邮政",
+    "value": "IJEJSSTYZ"
+  },
+  {
+    "name": "捷克邮政",
+    "value": "IJKYZ"
+  },
+  {
+    "name": "加纳邮政",
+    "value": "IJNYZ"
+  },
+  {
+    "name": "柬埔寨邮政",
+    "value": "IJPZYZ"
+  },
+  {
+    "name": "克罗地亚邮政",
+    "value": "IKNDYYZ"
+  },
+  {
+    "name": "肯尼亚邮政",
+    "value": "IKNYYZ"
+  },
+  {
+    "name": "科特迪瓦EMS",
+    "value": "IKTDWEMS"
+  },
+  {
+    "name": "科特迪瓦邮政",
+    "value": "IKTDWYZ"
+  },
+  {
+    "name": "罗马尼亚邮政",
+    "value": "ILMNYYZ"
+  },
+  {
+    "name": "摩尔多瓦邮政",
+    "value": "IMEDWYZ"
+  },
+  {
+    "name": "马耳他邮政",
+    "value": "IMETYZ"
+  },
+  {
+    "name": "尼日利亚邮政",
+    "value": "INRLYYZ"
+  },
+  {
+    "name": "塞尔维亚邮政",
+    "value": "ISEWYYZ"
+  },
+  {
+    "name": "塞浦路斯邮政",
+    "value": "ISPLSYZ"
+  },
+  {
+    "name": "乌兹别克斯坦邮政",
+    "value": "IWZBKSTYZ"
+  },
+  {
+    "name": "西班牙邮政",
+    "value": "IXBYYZ"
+  },
+  {
+    "name": "新加坡EMS",
+    "value": "IXJPEMS"
+  },
+  {
+    "name": "希腊邮政",
+    "value": "IXLYZ"
+  },
+  {
+    "name": "新西兰邮政",
+    "value": "IXXLYZ"
+  },
+  {
+    "name": "意大利邮政",
+    "value": "IYDLYZ"
+  },
+  {
+    "name": "英国邮政",
+    "value": "IYGYZ"
+  },
+  {
+    "name": "亚美尼亚邮政",
+    "value": "IYMNYYZ"
+  },
+  {
+    "name": "也门邮政",
+    "value": "IYMYZ"
+  },
+  {
+    "name": "智利邮政",
+    "value": "IZLYZ"
+  },
+  {
+    "name": "日本邮政",
+    "value": "JP"
+  },
+  {
+    "name": "今枫国际",
+    "value": "JFGJ"
+  },
+  {
+    "name": "极光转运",
+    "value": "JGZY"
+  },
+  {
+    "name": "吉祥邮转运",
+    "value": "JXYKD"
+  },
+  {
+    "name": "嘉里国际",
+    "value": "JLDT"
+  },
+  {
+    "name": "绝配国际速递",
+    "value": "JPKD"
+  },
+  {
+    "name": "佳惠尔",
+    "value": "SYJHE"
+  },
+  {
+    "name": "联运通",
+    "value": "LYT"
+  },
+  {
+    "name": "联合快递",
+    "value": "LHKDS"
+  },
+  {
+    "name": "林道国际",
+    "value": "SHLDHY"
+  },
+  {
+    "name": "荷兰邮政",
+    "value": "NL"
+  },
+  {
+    "name": "新顺丰",
+    "value": "NSF"
+  },
+  {
+    "name": "ONTRAC",
+    "value": "ONTRAC"
+  },
+  {
+    "name": "OCS",
+    "value": "OCS"
+  },
+  {
+    "name": "全球邮政",
+    "value": "QQYZ"
+  },
+  {
+    "name": "POSTEIBE",
+    "value": "POSTEIBE"
+  },
+  {
+    "name": "啪啪供应链",
+    "value": "PAPA"
+  },
+  {
+    "name": "秦远海运",
+    "value": "QYHY"
+  },
+  {
+    "name": "启辰国际",
+    "value": "VENUCIA"
+  },
+  {
+    "name": "瑞典邮政",
+    "value": "RDSE"
+  },
+  {
+    "name": "SKYPOST",
+    "value": "SKYPOST"
+  },
+  {
+    "name": "瑞士邮政",
+    "value": "SWCH"
+  },
+  {
+    "name": "首达速运",
+    "value": "SDSY"
+  },
+  {
+    "name": "穗空物流",
+    "value": "SK"
+  },
+  {
+    "name": "首通快运",
+    "value": "STONG"
+  },
+  {
+    "name": "申通快递国际单",
+    "value": "STO_INTL"
+  },
+  {
+    "name": "上海久易国际",
+    "value": "JYSD"
+  },
+  {
+    "name": "泰国138",
+    "value": "TAILAND138"
+  },
+  {
+    "name": "USPS美国邮政",
+    "value": "USPS"
+  },
+  {
+    "name": "万国邮政",
+    "value": "UPU"
+  },
+  {
+    "name": "中越国际物流",
+    "value": "VCTRANS"
+  },
+  {
+    "name": "星空国际",
+    "value": "XKGJ"
+  },
+  {
+    "name": "迅达国际",
+    "value": "XD"
+  },
+  {
+    "name": "香港邮政",
+    "value": "XGYZ"
+  },
+  {
+    "name": "喜来快递",
+    "value": "XLKD"
+  },
+  {
+    "name": "鑫世锐达",
+    "value": "XSRD"
+  },
+  {
+    "name": "新元国际",
+    "value": "XYGJ"
+  },
+  {
+    "name": "ADLER雄鹰国际速递",
+    "value": "XYGJSD"
+  },
+  {
+    "name": "日本大和运输(Yamato)",
+    "value": "YAMA"
+  },
+  {
+    "name": "YODEL",
+    "value": "YODEL"
+  },
+  {
+    "name": "一号线",
+    "value": "YHXGJSD"
+  },
+  {
+    "name": "约旦邮政",
+    "value": "YUEDANYOUZ"
+  },
+  {
+    "name": "玥玛速运",
+    "value": "YMSY"
+  },
+  {
+    "name": "鹰运",
+    "value": "YYSD"
+  },
+  {
+    "name": "易境达",
+    "value": "YJD"
+  },
+  {
+    "name": "洋包裹",
+    "value": "YBG"
+  },
+  {
+    "name": "AOL（澳通）",
+    "value": "AOL"
+  },
+  {
+    "name": "BCWELT   ",
+    "value": "BCWELT"
+  },
+  {
+    "name": "笨鸟国际",
+    "value": "BN"
+  },
+  {
+    "name": "优邦国际速运",
+    "value": "UBONEX"
+  },
+  {
+    "name": "UEX   ",
+    "value": "UEX"
+  },
+  {
+    "name": "韵达国际",
+    "value": "YDGJ"
+  },
+  {
+    "name": "爱购转运",
+    "value": "ZY_AG"
+  },
+  {
+    "name": "爱欧洲",
+    "value": "ZY_AOZ"
+  },
+  {
+    "name": "澳世速递",
+    "value": "ZY_AUSE"
+  },
+  {
+    "name": "AXO",
+    "value": "ZY_AXO"
+  },
+  {
+    "name": "贝海速递",
+    "value": "ZY_BH"
+  },
+  {
+    "name": "八达网",
+    "value": "ZY_BDA"
+  },
+  {
+    "name": "蜜蜂速递",
+    "value": "ZY_BEE"
+  },
+  {
+    "name": "百利快递",
+    "value": "ZY_BL"
+  },
+  {
+    "name": "斑马物流",
+    "value": "ZY_BM"
+  },
+  {
+    "name": "百通物流",
+    "value": "ZY_BT"
+  },
+  {
+    "name": "策马转运",
+    "value": "ZY_CM"
+  },
+  {
+    "name": "EFS POST",
+    "value": "ZY_EFS"
+  },
+  {
+    "name": "宜送转运",
+    "value": "ZY_ESONG"
+  },
+  {
+    "name": "ETD",
+    "value": "ZY_ETD"
+  },
+  {
+    "name": "飞碟快递",
+    "value": "ZY_FD"
+  },
+  {
+    "name": "飞鸽快递",
+    "value": "ZY_FG"
+  },
+  {
+    "name": "风行快递",
+    "value": "ZY_FX"
+  },
+  {
+    "name": "风行速递",
+    "value": "ZY_FXSD"
+  },
+  {
+    "name": "飞洋快递",
+    "value": "ZY_FY"
+  },
+  {
+    "name": "皓晨快递",
+    "value": "ZY_HC"
+  },
+  {
+    "name": "华兴速运",
+    "value": "ZY_HXSY"
+  },
+  {
+    "name": "海悦速递",
+    "value": "ZY_HYSD"
+  },
+  {
+    "name": "君安快递",
+    "value": "ZY_JA"
+  },
+  {
+    "name": "时代转运",
+    "value": "ZY_JD"
+  },
+  {
+    "name": "骏达快递",
+    "value": "ZY_JDKD"
+  },
+  {
+    "name": "骏达转运",
+    "value": "ZY_JDZY"
+  },
+  {
+    "name": "久禾快递",
+    "value": "ZY_JH"
+  },
+  {
+    "name": "金海淘",
+    "value": "ZY_JHT"
+  },
+  {
+    "name": "联邦转运FedRoad",
+    "value": "ZY_LBZY"
+  },
+  {
+    "name": "领跑者快递",
+    "value": "ZY_LPZ"
+  },
+  {
+    "name": "赤兔马转运",
+    "value": "ZY_CTM"
+  },
+  {
+    "name": "龙象快递",
+    "value": "ZY_LX"
+  },
+  {
+    "name": "量子物流",
+    "value": "ZY_LZWL"
+  },
+  {
+    "name": "美国转运",
+    "value": "ZY_MGZY"
+  },
+  {
+    "name": "美速通",
+    "value": "ZY_MST"
+  },
+  {
+    "name": "美西转运",
+    "value": "ZY_MXZY"
+  },
+  {
+    "name": "QQ-EX",
+    "value": "ZY_QQEX"
+  },
+  {
+    "name": "瑞天快递",
+    "value": "ZY_RT"
+  },
+  {
+    "name": "瑞天速递",
+    "value": "ZY_RTSD"
+  },
+  {
+    "name": "速达快递",
+    "value": "ZY_SDKD"
+  },
+  {
+    "name": "四方转运",
+    "value": "ZY_SFZY"
+  },
+  {
+    "name": "上腾快递",
+    "value": "ZY_ST"
+  },
+  {
+    "name": "天际快递",
+    "value": "ZY_TJ"
+  },
+  {
+    "name": "天马转运",
+    "value": "ZY_TM"
+  },
+  {
+    "name": "滕牛快递",
+    "value": "ZY_TN"
+  },
+  {
+    "name": "TrakPak",
+    "value": "ZY_TPAK"
+  },
+  {
+    "name": "太平洋快递",
+    "value": "ZY_TPY"
+  },
+  {
+    "name": "唐三藏转运",
+    "value": "ZY_TSZ"
+  },
+  {
+    "name": "TWC转运世界",
+    "value": "ZY_TWC"
+  },
+  {
+    "name": "润东国际快线",
+    "value": "ZY_RDGJ"
+  },
+  {
+    "name": "同心快递",
+    "value": "ZY_TX"
+  },
+  {
+    "name": "天翼快递",
+    "value": "ZY_TY"
+  },
+  {
+    "name": "败欧洲",
+    "value": "ZY_BOZ"
+  },
+  {
+    "name": "德国海淘之家",
+    "value": "ZY_DGHT"
+  },
+  {
+    "name": "德运网",
+    "value": "ZY_DYW"
+  },
+  {
+    "name": "文达国际DCS",
+    "value": "ZY_WDCS"
+  },
+  {
+    "name": "同舟快递",
+    "value": "ZY_TZH"
+  },
+  {
+    "name": "UCS合众快递",
+    "value": "ZY_UCS"
+  },
+  {
+    "name": "星辰快递",
+    "value": "ZY_XC"
+  },
+  {
+    "name": "先锋快递",
+    "value": "ZY_XF"
+  },
+  {
+    "name": "西邮寄",
+    "value": "ZY_XIYJ"
+  },
+  {
+    "name": "云骑快递",
+    "value": "ZY_YQ"
+  },
+  {
+    "name": "优晟速递",
+    "value": "ZY_YSSD"
+  },
+  {
+    "name": "运淘美国",
+    "value": "ZY_YTUSA"
+  },
+  {
+    "name": "至诚速递",
+    "value": "ZY_ZCSD"
+  },
+  {
+    "name": "增速海淘",
+    "value": "ZYZOOM"
+  },
+  {
+    "name": "中驰物流",
+    "value": "ZH"
+  },
+  {
+    "name": "中欧快运",
+    "value": "ZO"
+  },
+  {
+    "name": "准实快运",
+    "value": "ZSKY"
+  },
+  {
+    "name": "中外速运",
+    "value": "ZWSY"
+  },
+  {
+    "name": "郑州建华",
+    "value": "ZZJH"
+  }
+]

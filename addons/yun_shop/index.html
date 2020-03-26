@@ -1,0 +1,147 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover"><link rel="shortcut icon" href=./static/app/images/logo.jpg type=image/x-icon><link rel=stylesheet href=//at.alicdn.com/t/font_432132_5eingdltbuu.css><link rel=stylesheet href=./static/app/mint-ui.css><link rel=stylesheet href=./static/app/ydui.px.css><link rel=stylesheet href=./static/app/swiper.min.css><style>/*提现*/
+      .tbbox_a .van-checkbox {
+        margin: 0.5rem 0 0 1.5rem;
+      }
+
+      /*报单系统*/
+      .van-cell__value .van-radio {
+        display: inline-block;
+      }
+
+      .mint-toast.is-placemiddle {
+        z-index: 2009;
+      }
+
+      .noVantRadio .van-radio__label {
+        line-height: 20px;
+        padding: 2px 8px;
+        margin-left: 0;
+      }
+
+      .noVantRadio .vantRadioshow .van-radio__label {
+        color: #fff;
+      }
+
+      /*商品详情*/
+      .noVantRadio .van-radio__icon {
+        display: none;
+      }
+
+      #balance_recharge .van-radio__icon,
+      #page .van-radio__icon,
+      #microshop_apply .van-radio__icon,
+      #withdrawal .van-radio__icon {
+        position: absolute;
+        right: 1rem;
+        /*margin-top: 1.2rem;*/
+      }
+
+      #global_dividend .van-ellipsis {
+        width: 6.5rem;
+        text-align: center;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+        display: inline-block;
+      }
+
+      #global_dividend .van-tabs--line .van-tabs__wrap {
+        min-height: 44px;
+        height: auto;
+      }
+
+      #global_dividend .van-tab {
+        line-height: 20px;
+      }
+
+      #global_dividend .van-tabs__nav--line {
+        padding-top: 10px;
+      }
+
+      #global_dividend .van-tabs--line {
+        background: #fff;
+        padding-top: 65px;
+      }
+
+      #coupon_edit .van-overlay {
+        background: #fff;
+      }
+
+      #notice .van-tabs__wrap--scrollable .van-tab {
+        padding: 0 15px;
+        flex-basis: auto !important;
+      }
+
+      #notice .van-tabs__wrap--scrollable .van-tab--active .van-ellipsis {
+        border-bottom: solid 2px #f44;
+      }
+
+      .coupon-list-info .yd-checkbox-text {
+        display: none;
+      }
+
+      .list-paddingleft-2 {
+        padding-left: 40px;
+      }
+
+      #search-box-first .van-collapse-item__content {
+        padding: 0;
+      }
+
+      #search-box-first .van-icon-passed {
+        color: #e60012;
+      }
+
+      #diy-form .yd-cell-title {
+        color: #999;
+      }
+
+      #diy-form .yd-cell-left {
+        color: #333;
+      }
+
+      #diy-form .yd-cell {
+        background: none;
+      }
+
+      #diy-form .yd-textarea {
+        background: none;
+      }
+      .scroll-hide .yd-popup-content {
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }</style><title></title><script type=text/javascript>(function(doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt =
+            "orientationchange" in window ? "orientationchange" : "resize",
+          recalc = function() {
+            let u = navigator.userAgent,
+              app = navigator.appVersion;
+            let isAndroid =
+              u.indexOf("Android") > -1 || u.indexOf("Linux") > -1; //g
+            let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+            if (!isAndroid && !isIOS) {
+              var clientWidth = 375;
+            } else {
+              var clientWidth = docEl.clientWidth;
+            }
+            if (!clientWidth) return;
+            docEl.style.fontSize = 16 * (clientWidth / 375) + "px"; //其中“16”根据你设置的html的font-size属性值做适当的变化
+          };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener("DOMContentLoaded", recalc, false);
+      })(document, window);</script><script type=text/javascript src=./static/app/app-min.js></script><script src=./static/app/recorder-core.js></script><script src=./static/gov_province_city_area_id.js></script><script type=text/javascript src=./static/app/swiper.min.js></script><script type=text/javascript src=./static/app/vue.min.js></script><script type=text/javascript src=./static/app/vue-awesome-swiper.js></script><script type=text/javascript src=./static/app/vue-router1.min.js></script><script type=text/javascript src=./static/app/vuex.min.js></script><script type=text/javascript src=./static/app/axios.min.js></script><script type=text/javascript src=./static/app/ydui.px.js></script><script type=text/javascript src=./static/app/mint-ui.js></script><script type=text/javascript src=./static/app/vue-lazyload.js></script><script type=text/javascript src="https://webapi.amap.com/maps?v=1.4.9&key=43de56d8e65fe042493541213d9ad7b0"></script><script type=text/javascript src="https://webapi.amap.com/maps?v=1.4.9&key=43de56d8e65fe042493541213d9ad7b0&plugin=AMap.Autocomplete"></script><script type=text/javascript src=./static/app/YdbOnline.js></script><script>var YDB_UUID = 0;
+      var senduid = function(uuid) {
+        YDB_UUID = uuid;
+        if (!YDB_UUID) {
+          YDB_UUID = 0;
+        }
+        window.localStorage.setItem("uuid", YDB_UUID);
+        // alert(YDB_UUID);
+      };</script><script type=text/javascript src=./static/app/apps.js></script><script type=text/javascript src=./static/app/fixifmheight.js charset=utf-8></script><script src=./static/app/jweixin-1.3.2.js type=text/javascript charset=utf-8></script><link href=/addons/yun_shop/static/app/css/app.0f28c3a3219e698efcf1b203f1ce855b.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/addons/yun_shop/static/app/js/manifest.0d34a53569c368dae3b4.js></script><script type=text/javascript src=/addons/yun_shop/static/app/js/vendor.c81b5c650eb9003879a0.js></script><script type=text/javascript src=/addons/yun_shop/static/app/js/app.6290d013b05d388b246e.js></script></body></html>

@@ -1,0 +1,18 @@
+<tr class='{$random}'>
+    
+    <td style="word-break:break-all;overflow:hidden;width:auto;padding:10px;line-height:22px;">
+      <span class='cityshtml'>{$row['citys']}</span>
+      <input type="hidden" name="random[]" value="{$random}" />
+      <input type="hidden" class='citys' name="citys[{$random}]" value="{$row['citys']}" />
+      <a href='javascript:;' onclick='editArea(this)' random="{$random}">编辑</a>
+</td>
+<td class="text-center weight"><input type="number" value="{php echo empty($row['firstweight'])?1000:$row['firstweight']}" class="form-control" name="firstweight[{$random}]" style="width:100px;"></td>
+<td class="text-center weight"><input type="text" value="{$row['firstprice']}" class="form-control" name="firstprice[{$random}]" style="width:100px;"></td>
+<td class="text-center weight"><input type="number" value="{php echo empty($row['secondweight'])?1000:$row['secondweight']}" class="form-control" name="secondweight[{$random}]" style="width:100px;"></td>
+<td class="text-center weight"><input type="text" value="{$row['secondprice']}" class="form-control" name="secondprice[{$random}]" style="width:100px;"></td>
+<td class="text-center fnum"><input type="number" value="{php echo empty($row['firstnum'])?1:$row['firstnum']}" class="form-control" name="firstnum[{$random}]" style="width:100px;"></td>
+<td class="text-center fnum"><input type="text" value="{$row['firstnumprice']}" class="form-control" name="firstnumprice[{$random}]" style="width:100px;"></td>
+<td class="text-center fnum"><input type="number" value="{php echo empty($row['secondnum'])?1:$row['secondnum']}" class="form-control" name="secondnum[{$random}]" style="width:100px;"></td>
+<td class="text-center fnum"><input type="text" value="{$row['secondnumprice']}" class="form-control" name="secondnumprice[{$random}]" style="width:100px;"></td>
+<td><a href='javascript:;' onclick='$(this).parent().parent().remove()'><i class='fa fa-remove'></i></td>
+</tr> 

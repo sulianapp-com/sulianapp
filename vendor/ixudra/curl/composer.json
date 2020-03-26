@@ -1,0 +1,37 @@
+{
+    "name": "ixudra/curl",
+    "description": "Custom PHP Curl library for the Laravel 5 framework - developed by Ixudra",
+    "version": "6.18.1",
+    "keywords": ["Ixudra", "Laravel", "Curl"],
+    "homepage": "http://ixudra.be",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Jan Oris",
+            "email": "jan.oris@ixudra.be"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "illuminate/support": ">=4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Ixudra\\Curl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ixudra\\Curl\\CurlServiceProvider"
+            ],
+            "aliases": {
+                "Curl": "Ixudra\\Curl\\Facades\\Curl"
+            }
+        }
+    }
+}

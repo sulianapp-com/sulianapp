@@ -1,0 +1,68 @@
+# Configuration file for Apache running on Travis.
+# PHP setup in FCGI mode
+
+<VirtualHost *:80>
+
+  DocumentRoot %TRAVIS_BUILD_DIR%
+
+  ErrorLog "%TRAVIS_BUILD_DIR%/apache_error.log"
+  CustomLog "%TRAVIS_BUILD_DIR%/apache_access.log" combined
+
+  <Directory "%TRAVIS_BUILD_DIR%">
+    Options FollowSymLinks MultiViews ExecCGI
+    AllowOverride All
+    Order deny,allow
+    Allow from all
+  </Directory>
+
+  # Wire up Apache to use Travis CI's php-fpm.
+  <IfModule mod_fastcgi.c>
+    AddHandler php5-fcgi .php
+    Action php5-fcgi /php5-fcgi
+    Alias /php5-fcgi /usr/lib/cgi-bin/php5-fcgi
+    FastCgiExternalServer /usr/lib/cgi-bin/php5-fcgi -host 127.0.0.1:9000 -pass-header Authorization
+  </IfModule>
+
+</VirtualHost>
+
+<IfModule mod_ssl.c>
+
+<VirtualHost _default_:443>
+
+  DocumentRoot %TRAVIS_BUILD_DIR%
+
+  ErrorLog "%TRAVIS_BUILD_DIR%/apache_error.log"
+  CustomLog "%TRAVIS_BUILD_DIR%/apache_access.log" combined
+
+  <Directory "%TRAVIS_BUILD_DIR%">
+    Options FollowSymLinks MultiViews ExecCGI
+    AllowOverride All
+    Order deny,allow
+    Allow from all
+  </Directory>
+
+  # Wire up Apache to use Travis CI's php-fpm.
+  <IfModule mod_fastcgi.c>
+    AddHandler php5-fcgi .php
+    Action php5-fcgi /php5-fcgi
+    Alias /php5-fcgi /usr/lib/cgi-bin/php5-fcgi
+    #FastCgiExternalServer /usr/lib/cgi-bin/php5-fcgi -host 127.0.0.1:9000 -pass-header Authorization
+  </IfModule>
+
+  SSLEngine on
+  # This cert is bundled by default in Ubuntu
+  SSLCertificateFile /etc/ssl/certs/ssl-cert-snakeoil.pem
+  SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
+
+  <FilesMatch "\.(cgi|shtml|phtml|php)$">
+    SSLOptions +StdEnvVars
+  </FilesMatch>
+
+  BrowserMatch "MSIE [2-6]" \
+  nokeepalive ssl-unclean-shutdown \
+  downgrade-1.0 force-response-1.0
+  BrowserMatch "MSIE [17-9]" ssl-unclean-shutdown
+
+</VirtualHost>
+
+</IfModule>

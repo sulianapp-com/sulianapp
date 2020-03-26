@@ -1,0 +1,446 @@
+.plugin-a {
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: #ffffff;
+    border: 1px #E5E5E5 solid;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.plugin-a:focus,
+.plugin-a:active,
+.plugin-a:hover {
+    color: #000000;
+    box-shadow: 0px 14px 26px -12px rgba(34, 133, 233, 0.42), 0px 4px 23px 0px rgba(0, 0, 0, 0.12), 0px 8px 10px -5px rgba(38, 130, 233, 0.2);
+}
+
+.plugin-a:disabled {
+    box-shadow: none;
+}
+
+.plugin-i {
+    background-size: 50px 50px;
+    font-size: 45px;
+    border: 1px solid #E5E5E5;
+    border-radius: 20%;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    float: left;
+    background-color: #f6f6f6
+}
+
+.plugin-i-div {
+    color: #999999;
+}
+
+.plugin-span {
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.pl {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.commission {
+    background-image: url('../img/dividend/commission.png');
+}
+
+.bonus_commission {
+    background-image: url('../img/dividend/bonus_commission.png');
+}
+
+.micro {
+    background-image: url('../img/dividend/micro.png');
+}
+
+.area_dividend {
+    background-image: url('../img/dividend/area_dividend.png');
+}
+
+.merchant {
+    background-image: url('../img/dividend/merchant.png');
+}
+
+.team_dividend {
+    background-image: url('../img/dividend/team_dividend.png');
+}
+
+.shareholder_dividend {
+    background-image: url('../img/dividend/shareholder_dividend.png');
+}
+
+.sales-commission {
+    background-image: url('../img/dividend/sales_commission.png');
+}
+
+.mryt {
+    background-image: url('../img/dividend/mryt.png');
+}
+
+.separate {
+    background-image: url('../img/dividend/separate.png');
+}
+
+.team_rewards {
+    background-image: url('../img/dividend/team_rewards.png');
+}
+
+.scoring-dividend {
+    background-image: url('../img/dividend/scoring-dividend.png');
+}
+
+.global-dividend {
+    background-image: url('../img/dividend/global-dividend.png');
+}
+
+.manual_bonus {
+    background-image: url('../img/dividend/manual_bonus.png');
+}
+
+.supplier {
+    background-image: url('../img/industry/supplier.png');
+}
+
+.conference {
+    background-image: url('../img/industry/conference.png');
+}
+
+.video_demand {
+    background-image: url('../img/industry/video_demand.png');
+}
+
+.lease_toy {
+    background-image: url('../img/industry/lease_toy.png');
+}
+
+.store_cashier {
+    background-image: url('../img/industry/store_cashier.png');
+}
+
+.subsidiary {
+    background-image: url('../img/industry/subsidiary.png');
+}
+
+.hotel {
+    background-image: url('../img/industry/hotel.png');
+}
+
+.kingtimes {
+    background-image: url('../img/industry/kingtimes.png');
+}
+
+.help_user_buying {
+    background-image: url('../img/industry/help_user_buying.png');
+}
+
+.net_car {
+    background-image: url('../img/industry/net_car.png');
+}
+.delivery_station {
+    background-image: url('../img/industry/delivery_station.png');
+}
+.service_station {
+    background-image: url('../img/industry/service_station.png');
+}
+.jd_supply {
+    background-image: url('../img/industry/jd_supply.png');
+}
+
+
+
+
+.point_activity {
+    background-image: url('../img/marketing/point_activity.png');
+}
+
+.gold {
+    background-image: url('../img/marketing/gold.png');
+}
+
+.credit {
+    background-image: url('../img/marketing/credit.png');
+}
+
+.poster {
+    background-image: url('../img/marketing/poster.png');
+}
+
+.article {
+    background-image: url('../img/marketing/article.png');
+}
+
+.ranking {
+    background-image: url('../img/marketing/ranking.png');
+}
+
+.clock_in {
+    background-image: url('../img/marketing/clock_in.png');
+}
+
+.full_return {
+    background-image: url('../img/marketing/full_return.png');
+}
+
+.love {
+    background-image: url("../img/marketing/love.png");
+}
+
+.integral {
+    background-image: url("../img/marketing/integral.png");
+}
+
+.team_return {
+    background-image: url('../img/marketing/team_return.png');
+}
+
+.fixed_reward {
+    background-image: url('../img/marketing/fixed_reward.png');
+}
+
+.level_return {
+    background-image: url('../img/marketing/level_return.png');
+}
+
+.recharge_code {
+    background-image: url('../img/marketing/recharge_code.png');
+}
+
+.single_return {
+    background-image: url('../img/marketing/single_return.png');
+}
+
+.consume_return {
+    background-image: url('../img/marketing/consume_return.png');
+}
+
+.coin {
+    background-image: url('../img/marketing/coin.png');
+}
+
+.sign {
+    background-image: url('../img/marketing/sign.png');
+}
+
+.task_reward {
+    background-image: url('../img/marketing/task_reward.png');
+}
+
+.courier {
+    background-image: url('../img/marketing/courier.png');
+}
+
+.member_return {
+    background-image: url('../img/marketing/member_return.png');
+}
+
+.share-chain {
+    background-image: url('../img/marketing/share-chain.png');
+}
+
+.universal_card {
+    background-image: url('../img/marketing/universal_card.png');
+}
+
+.froze {
+    background-image: url('../img/marketing/froze.png');
+}
+
+.business_card {
+    background-image: url('../img/marketing/business_card.png');
+}
+
+.business_activity {
+    background-image: url('../img/marketing/business_activity.png');
+}
+
+.my-friend {
+    background-image: url('../img/marketing/my-friend.png');
+}
+
+.team_management {
+    background-image: url('../img/marketing/team_management.png');
+}
+
+.app_set {
+    background-image: url('../img/tool/app_set.png');
+}
+
+.printer {
+    background-image: url('../img/tool/printer.png');
+}
+
+.designer {
+    background-image: url('../img/tool/designer.png');
+}
+
+.exhelper {
+    background-image: url('../img/tool/exhelper.png');
+}
+
+.goods_assistant {
+    background-image: url('../img/tool/goods_assistant.png');
+}
+
+.min_app {
+    background-image: url('../img/tool/min_app.png');
+}
+
+.yun_pay {
+    background-image: url('../img/tool/yun_pay.png');
+}
+
+.diyform {
+    background-image: url('../img/tool/diyform.png');
+}
+
+.cloud_pay {
+    background-image: url('../img/tool/cloud_pay.png');
+}
+
+.another_pay {
+    background-image: url('../img/tool/another_pay.png');
+}
+
+.help_center {
+    background-image: url('../img/tool/help_center.png');
+}
+
+.statistics {
+    background-image: url('../img/tool/statistics.png');
+}
+
+.wanmi_pay {
+    background-image: url('../img/tool/wanmi_pay.png');
+}
+
+.wechat {
+    background-image: url('../img/tool/wechat.png');
+}
+
+.usdtpay {
+    background-image: url('../img/tool/usdtpay.png');
+}
+
+.alipay_onekey_login {
+    background-image: url('../img/tool/alipay_onekey_login.png');
+}
+
+
+.air {
+    background-image: url('../img/recharge/air.png');
+}
+
+.phone {
+    background-image: url('../img/recharge/phone.png');
+}
+
+.live {
+    background-image: url('../img/recharge/live.png');
+}
+
+.flow_recharge {
+    background-image: url('../img/recharge/flow_recharge.png');
+}
+
+.elive {
+    background-image: url('../img/recharge/elive.png');
+}
+
+.train {
+    background-image: url('../img/recharge/train.png');
+}
+
+.gasoline {
+    background-image: url('../img/recharge/gasoline.png');
+}
+
+.recharge {
+    background-image: url('../img/recharge/recharge.png');
+}
+
+.hawk_ticket {
+    background-image: url('../img/api/hawk_ticket.png');
+}
+
+.group_purchase {
+    background-image: url('../img/api/group_purchase.png');
+}
+
+.super_kjs {
+    background-image: url('../img/api/super_kjs.png');
+}
+
+.dzp {
+    background-image: url('../img/api/dzp.png');
+}
+
+.community {
+    background-image: url('../img/api/community.png');
+}
+
+.order_meals {
+    background-image: url('../img/api/order_meals.png');
+}
+
+.eup_pay {
+    background-image: url('../img/api/eup_pay.png');
+}
+
+.pld_pay {
+    background-image: url('../img/api/pld_pay.png');
+}
+
+.we7_wmall {
+    background-image: url('../img/api/we7_wmall.png');
+}
+
+.weisrc_dish {
+    background-image: url('../img/api/weisrc_dish.png');
+}
+.asset {
+    background-image: url('../img/blockchain/asset.png');
+}
+
+.declaration {
+    background-image: url('../img/marketing/declaration.png');
+}
+
+.material-center {
+    background-image: url('../img/marketing/material-center.png');
+}
+
+.distribution-order  {
+    background-image: url('../img/marketing/distribution-order.png');
+}
+
+
+.gold-price-change {
+    background-image: url('../img/marketing/gold-price-change.png');
+}
+
+.price-authority  {
+    background-image: url('../img/marketing/price-authority.png');
+}
+
+.label  {
+    background-image: url('../img/marketing/label.png');
+}
+
+.bonus-pool  {
+    background-image: url('../img/marketing/bonus-pool.png');
+}
+
+.revenue-award  {
+    background-image: url('../img/marketing/revenue-award.png');
+}
+
