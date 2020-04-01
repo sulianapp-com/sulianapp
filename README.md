@@ -10,6 +10,8 @@
 
 ### 商城使用laravel开发，支持PHP7，前端采用vue打包，请各位技术同学悉知。
 
+### 支持自行二次开发，或者有需求可以找我们定制开发：）
+
 功能演示 [快链商城](https://sulianapp.com)
 
 用户名：sladmin
@@ -31,7 +33,7 @@
 [![8dK7b6.md.png](https://s1.ax1x.com/2020/03/17/8dK7b6.md.png)](https://imgchr.com/i/8dK7b6)
 [![8dMSKI.md.png](https://s1.ax1x.com/2020/03/17/8dMSKI.md.png)](https://imgchr.com/ i/8dMSKI)
 
-# 联系我们：请注明来自github，vx: yangyu20180816   电话：13560310894
+# 联系我们：请注明来自github，vx: yangyu20180816   电话：18646588292
 
 [![8dQSW4.jpg](https://s1.ax1x.com/2020/03/17/8dQSW4.jpg)](https://imgchr.com/i/8dQSW4)
 
