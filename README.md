@@ -24,7 +24,7 @@
 开发文档稍后发出。
 
 系统截图：
-[![8dK2UU.md.png](https://s1.ax1x.com/2020/03/17/8dK2UU.md.png)](https://imgchr.com/i/8dK2UU)
+[![8dK2UU.md.png](http://sulianapp.com/static/images/jietu/WX20200317-234356@2x.png)](http://sulianapp.com/static/images/jietu/WX20200317-234356@2x.png)
 [![8dKR5F.md.png](https://s1.ax1x.com/2020/03/17/8dKR5F.md.png)](https://imgchr.com/i/8dKR5F)
 [![8dKh8J.md.png](https://s1.ax1x.com/2020/03/17/8dKh8J.md.png)](https://imgchr.com/i/8dKh8J)
 [![8dKfC4.md.png](https://s1.ax1x.com/2020/03/17/8dKfC4.md.png)](https://imgchr.com/i/8dKfC4)
