@@ -35,5 +35,5 @@
 
 # 联系我们：请注明来自github，vx: yangyu20180816   电话：18646588292
 
-[![8dQSW4.jpg](http://sulianapp.com/static/images/jietu/WechatIMG3.png)](http://sulianapp.com/static/images/jietu/WechatIMG3.png)
+[![8dQSW4.jpg](http://sulianapp.com/static/images/jietu/WechatIMG3.png)](http://sulianapp.com/static/images/jietu/WechatIMG3.jpeg)
 
